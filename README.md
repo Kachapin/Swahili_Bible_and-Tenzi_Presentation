@@ -1,4 +1,4 @@
-# Bible and Hymn Presentation System
+# Bible and Tenzi Hymn Presentation System
 
 A browser-based presentation system for displaying hymn lyrics and Bible
 verses during live services, presentations, recordings, and online
@@ -603,7 +603,7 @@ data.
 ## Credits and Licensing
 
 Author: Kelvin Kachapin
-special mention to @shemmjunior whom I used his Swahili Bible Edition for my bible.json file
+special mention to [shemmjunior](https://github.com) whom I used his Swahili Bible Edition for my bible.json file
 
 
 Permited to use this controller in church and modify to suit your needs, 
