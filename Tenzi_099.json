@@ -1,0 +1,26 @@
+  {
+    "number": 99,
+    "title": "Maelfu na maelfu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Maelfu na maelfu\nWenye nguo bora!\nMasafu ya waongofu\nWenye na bendera!\nAmekwisha kamili\nVita vya shetani\nFungueni lango hili;\nNjoni, ingieni!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Imbeni aleluya,\nZipae Mbinguni!\nPigeni sana sauti\nKwa kutumaini!\nKwa hiyo viliumbwa\nNchi hata Mbingu\nDhiki za muda zikisha,\nAsifiwe Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Loo! Tukionana\nPwani ya ng’amboni!\nLoo! Tukishirikiana\nMilele Mbinguni!\nMidomo yote pia,\nHuko itaimba\nWajane kufufukiwa\nNa kila yatima!"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Himiza enzi yako,\nUliyetufia\nUtimize watu wako,\nWakosaji pia,\nMpendwa wa taifa\ntwakutumaini!\nUzifunue ishara\nUrudi enzini!"
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+  {
+    "number": 66,
+    "title": "Po pote mashamba yajaa",
+    "chorus": "Mwenye mavuno, wasihi\nUpeleke wavuni,\nWakusanye mazao,\nHata kazi iishe.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Po pote mashamba yajaa,\nTele nafaka pevu,\nPo pote yang’aa meupe\nBondeni na nyandani."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wapeleke uchaoni,\nWaende na jotoni,\nMpaka jua lishukapo\nWakusanye ko kote."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Watenda kazi wa Bwana,\nMlete sasa mazao,\nNa jioni ingieni\nKwake na furaha kuu."
+      }
+    ]
+  }

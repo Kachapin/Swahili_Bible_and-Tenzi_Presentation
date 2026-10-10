@@ -1,0 +1,28 @@
+ {
+    "number": 43,
+    "title": "Yesu akwita",
+    "chorus": "Hwita leo, hwita leo.\nYesu akwita kwa upole akwita leo.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu akwita, chanena Chuo:\nUje leo, uje leo;\nKwani kusita? Akwita, Njoo;\nUnatanga upeo."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Waliochoka, wapumzike,\nHwita leo, hwita leo:\nWenye mizigo, wakamtweke,\nwapate mapumuo."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Anakungoja, uliye yote,\nUje leo, uje leo;\nUliyekosa usijifiche:\nWoshwe, uvikwe nguo."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yesu asihi wakawiao,\nWaje leo, waje leo.\nWatafurahi waaminio;\nUsije kwani? Njoo."
+      }
+    ]
+  }
+  

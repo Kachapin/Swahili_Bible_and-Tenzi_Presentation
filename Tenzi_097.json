@@ -1,0 +1,26 @@
+  {
+    "number": 97,
+    "title": "Tazameni huyo ndiye",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Tazameni huyo ndiye,\nMwenye kushinda vita;\nHaya, tumsujudie;\nNyara anazileta;\nWatu wote msifuni,\nSasa yumo kitini."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Msifuni malaika,\nMtukuzeni sana,\nWote waliookoka\nWatamsifu Bwana;\nWatu wote msifuni,\nSasa yumo kitini."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Walimfanya dhihaka\nZamani wenye shari,\nKwao waliookoka\nNi Bwana wa fahari;\nWatu wote msifuni.\nSasa yumo Kitini."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nyimbo nzuri, sikizeni,\nNi nyimbo za sifa kuu,\nZa Bwana Yesu kitini,\nKutawazwa, yeye tu;\nWatu wote msifuni\nSasa yumo Kitini."
+      }
+    ]
+  }

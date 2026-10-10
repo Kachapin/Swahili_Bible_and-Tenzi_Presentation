@@ -1,0 +1,28 @@
+{
+    "number": 23,
+    "title": "Ni salama rohoni mwangu",
+    "chorus": "Salama rohoni,\nNi salama rohoni mwangu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nionapo amani kama\nshwari,\nAma nionapo shida;\nKwa mambo yote\numenijulisha,\nNi salama rohoni mwangu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ingawa shetani atanitesa,\nNitajipa moyo kwani\nKristo ameona unyonge\nwangu,\nAmekufa kwa roho yangu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Dhambi zangu zote, wala\nsi nusu,\nZimewekwa msalabani;\nWala sichukui laana yake,\nNi salama rohoni mwangu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ee Bwana himiza siku ya\nkuja,\nPanda itakapolia;\nUtakaposhuka sitaogopa\nNi salama rohoni mwangu."
+      }
+    ]
+  }
+  

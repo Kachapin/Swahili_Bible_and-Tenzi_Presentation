@@ -1,0 +1,35 @@
+{
+  "number": "1",
+  "title": "Mwokozi umeokoa",
+  "chorus": "Utukufu, Aleluya!\nSifa kwa Mwana Kondoo!\nDamu imenisafisha,\nUtukufu kwa Yesu!",
+  "stanzas": [
+    {
+      "index": 1,
+      "text": "Mwokozi umeokoa,\nNimekuwa wako wewe.\nDamu imenisafisha;\nSifa kwa mwana Kondoo."
+    },
+    {
+      "index": 2,
+      "text": "Nilijitahidi sana\nIla sikupata raha;\nBali kwa kumtegemea\nNilipata Baraka."
+    },
+    {
+      "index": 3,
+      "text": "Daima namwegemea\nDamu ikifanya kazi,\nNikioga kwa chemichemi\nItokayo Mwokozi."
+    },
+    {
+      "index": 4,
+      "text": "Sasa nimewekwa wakfu;\nNitaishi kwako wewe:\nFahari nashuhudia\nYa wokovu wa bure."
+    },
+    {
+      "index": 5,
+      "text": "Nasimama kwake Yesu,\nAmeponya roho yangu;\nAmeniondoa dhambi,\nAnifanye mzima."
+    },
+    {
+      "index": 6,
+      "text": "Nilikuwa kifungoni,\nNiliteswa na dhambi,\nNilifungwa minyororo\nYesu akanifungua."
+    },
+    {
+      "index": 7,
+      "text": "Sifa, ameninunua!\nSifa, nguvu za wokovu!\nSifa, Bwana huhifadhi!\nSifa zake milele."
+    }
+  ]
+}

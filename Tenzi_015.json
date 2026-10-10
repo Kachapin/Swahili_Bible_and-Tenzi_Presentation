@@ -1,0 +1,27 @@
+{
+    "number": 15,
+    "title": "Cha kutumaini sina",
+    "chorus": "Kwake Yesu nasimama,\nNdiye mwamba: ni salama\nNdiye mwamba: ni salama.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Chakutumaini sina\nIla damu yake Bwana,\nSina wema wa kutosha\nDhambi zangu kuziosha;"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Njia yangu iwe ndefu\nYeye hunipa wokovu;\nMawimbi yakinipiga\nNguvu zake ndiyo nanga."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Damu yake na sadaka\nNategemea daima,\nYote chini yakiisha\nMwokozi atanitosha."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nikiitwa hukumuni,\nRohoni nina amani\nNikivikwa haki yake\nSina hofu mbele zake."
+      }
+    ]
+  }

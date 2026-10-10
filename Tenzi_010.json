@@ -1,0 +1,28 @@
+ {
+    "number": 10,
+    "title": "Usinipite!",
+    "chorus": "Yesu,Yesu,\nUnisikie;\nUnapozuru wengine,\nUsinipite.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Usinipite Mwokozi,\nUnisikie;\nUnapozuru wengine,\nUsinipite."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kiti chako cha rehema,\nNakitazama;\nMagoti napiga pale,\nNisamehewe."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Sina ya kutegemea,\nIla Wewe tu;\nUso wako uwe kwangu;\nNakuabudu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "U Mfariji peke yako;\nSina Mbinguni,\nWala duniani pote,\nBwana mwingine."
+      }
+    ]
+  }
+ 

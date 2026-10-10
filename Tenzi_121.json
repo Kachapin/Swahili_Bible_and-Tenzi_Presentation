@@ -1,0 +1,34 @@
+
+  {
+    "number": 121,
+    "title": "Liko lango moja wazi",
+    "chorus": "Lango ndiye Yesu Bwana\nWote waingie kwake,\nLango! Lango\nLa Mbinguni ni wazi.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Liko lango moja wazi,\nNi lango la mbinguni;\nNa wote waingiao\nWatapata nafasi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu ndiye lango hili,\nHata sasa ni wazi,\nKwa wakubwa na wadogo,\nTajiri na maskini."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Hili ni lango la raha,\nNi lango la rehema;\nKila mtu apitaye\nHana majonzi tena."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Tukipita lango hili\nTutatua mizigo,\nTuliochukua kwanza,\nTutavikwa uzima."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Hima ndugu tuingie\nLango halijafungwa,\nLikifungwa mara moja\nHalitafunguliwa."
+      }
+    ]
+  }
+ 

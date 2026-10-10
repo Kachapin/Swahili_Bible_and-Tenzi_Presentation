@@ -1,0 +1,27 @@
+  {
+    "number": 89,
+    "title": "Kwa Kalvari",
+    "chorus": "Rehema bure na neema,\nSamaha nalo nilipewa,\nNdipo aliponifungua\nKwa Kalvari.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Muda mwingi nilipotea,\nSikufahamu msalaba,\nWala aliyenifilia,\nKwa Kalvari."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kwa neno lake Bwana\nMungu,\nNilijiona mimi mwovu,\nNikageuka na kutubu,\nKwa Kalvari."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yote kwa Yesu namtolea,\nNdiye mfalme wa pekee\nsasa,\nKwa furaha nitamwimbia,\nWa Kalvari."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Jinsi pendo lilivyo\nkuu,\nNeema ilishushwa toka juu,\nAlitufanyia wokovu\nKwa Kalvari."
+      }
+    ]
+  }

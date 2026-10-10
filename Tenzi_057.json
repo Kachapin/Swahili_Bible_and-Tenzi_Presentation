@@ -1,0 +1,32 @@
+  {
+    "number": 57,
+    "title": "Naendea msalaba",
+    "chorus": "Nakutumaini tu,\nEwe Mwana wa Mungu;\nNainamia kwako;\nNiponye, mponya wangu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Naendea Msalaba,\nNi mnyonge na mpofu,\nYapitayo naacha,\nNipone Msalabani."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nakulilia sana:\nNalemewa na dhambi;\nPole Yesu asema;\n“Nitazifuta zote”."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Natoa vyote kwako,\nNafasi nazo nguvu,\nRoho yangu na mwili,\nViwe vyako milele."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Kwa damu yake sasa,\nNimegeuka roho,\nNikaziacha tama\nNimfuate Yesu tu."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Yesu yuaja tena!\nNimepevuka kwake,\nKila chembe kamili;\nMsifuni yeye mponya!"
+      }
+    ]
+  }

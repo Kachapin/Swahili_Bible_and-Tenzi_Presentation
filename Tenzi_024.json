@@ -1,0 +1,33 @@
+{
+    "number": 24,
+    "title": "Mwokozi moyoni mwangu",
+    "chorus": "Amani moyoni mwangu,\nkwa Yesu, Mwokozi wangu;\nSina shaka kamwe,\nKwa sababu yeye,\nYu nami moyoni mwangu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Tangu siku hiyo\naliponijia,\nAkae moyoni mwangu,\nSina giza tena, ila mwanga\npia\nKwa Yesu mwokozi wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Sina haja tena, ya\nkutanga-tanga,\nNdiye kiongozi wangu.\nDhambi zangu zote\nzimeondolewa,\nNa Yesu, Mwanawe Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Matumaini yangu ni ya\nhakika,\nKatika Mwokozi wangu.\nHofu zangu na hamu\nzimeondoka,\nkwa kuwa ninaye Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Siogopi tena, nikiitwa\nkufa,\nYu nami daima, Yesu.\nMlango wa Mbinguni ni yeye\npia,\n“Tapita humo kwa damu.”"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Nitaketi na yeye huko\nmilele,\nNisifu Mwokozi wangu.\nNina raha moyoni majira\nyote,\nKwa Yesu, Mwanawe Mungu."
+      }
+    ]
+  }
+  

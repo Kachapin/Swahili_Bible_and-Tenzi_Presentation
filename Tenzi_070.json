@@ -1,0 +1,26 @@
+  {
+    "number": 70,
+    "title": "Yesu atuchunga",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu atuchunga,\nMchunga wetu,\nNaye atufuta\nMachozi yetu;\nMkononi mwake\nHatuna hofu,\nDaima twapata\nKwake wokovu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu atuchunga\nTumemjua,\nNa sauti yake\nTwaitambua;\nNaye akituonya\nNi kwa upole,\nTu kondoo zake\nHata milele."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yesu atuchunga;\nAliwafia\nKondoo wakubwa\nNa wana pia;\nKwamba awajua,\nKondoo zake,\nHutiwa alama\nYa damu yake."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yesu atuchunga;\nMikono yake\nImewaambata\nKondoo zake;\nHapati wadhuru\nAdui yule,\nYesu awalinda."
+      }
+    ]
+  }

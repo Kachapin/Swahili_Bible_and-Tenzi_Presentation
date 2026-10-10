@@ -1,0 +1,27 @@
+{
+  "number": 6,
+  "title": "Baba, Mwana, Roho",
+  "chorus": null,
+  "stanzas": [
+    {
+      "type": "stanza",
+      "index": 1,
+      "text": "Baba, Mwana, Roho,\nMungu mwenye enzi,\nKila tukiamka tunakuabudu\nBaba, Mwana, Roho, Mungu\nwa mapenzi,\nEwe Utatu, tunakusifu."
+    },
+    {
+      "type": "stanza",
+      "index": 2,
+      "text": "Baba, Mwana, Roho,\nwakuaminio\nWanakutolea shukrani zao\nWanakusujudia malaika nao:\nWewe u mwanzo, nawe u\nmwisho."
+    },
+    {
+      "type": "stanza",
+      "index": 3,
+      "text": "Baba, Mwana, Roho, sisi\ntu gizani,\nUtukufu wako hauoni kosa;\nU Mtakatifu, nawe u\nmapenzi,\nU peke yako, mwenzio huna."
+    },
+    {
+      "type": "stanza",
+      "index": 4,
+      "text": "Baba, Mwana, Roho,\nMungu mwenye enzi,\nUlivyoviumba vyote\nvyakusifu:\nBaba, Mwana, Roho, Mungu\nwa mapenzi\nEwe Utatu, tunakusifu."
+    }
+  ]
+}

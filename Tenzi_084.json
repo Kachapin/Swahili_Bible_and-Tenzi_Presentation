@@ -1,0 +1,26 @@
+ {
+    "number": 84,
+    "title": "Niwonapo mti bora",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Niwonapo mti bora\nKristo aliponifia\nKwangu pato ni hasara\nKiburi nakichukia."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Na nisijivune, Bwana\nIla kwa mauti yako;\nUpuzi sitaki tena,\nNi chini ya damu yako."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Tangu kichwa hata\nnyayo,\nZamwagwa pendo na hamu,\nNdako pweke hamu hiyo,\nPendo zako zimetimia."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Vitu vyote vya dunia,\nSi sadaka ya kutosha;\nPendo zako zinawia\nNafsi, mali, na maisha."
+      }
+    ]
+  }

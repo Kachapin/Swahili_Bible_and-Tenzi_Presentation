@@ -1,0 +1,31 @@
+ {
+    "number": 50,
+    "title": "Yesu nakupenda, U mali yangu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu nakupenda, U mali yangu,\nAnasa za dhambi sitaki kwangu;\nNa Mwokozi aliyeniokoa,\nSasa nakupenda, kuzidi pia."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Moyo umejaa mapenzi tele\nKwa vile ulivyonipenda mbele,\nUhai wako ukanitolea\nSasa nakupenda, kuzidi pia."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ulipoangikwa Msalabani\nTusamehewe tulio dhambini;\nTaji ya miiba uliyoivaa,\nSasa nakupenda, kuzidi pia."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Niwapo hai, niwapo maiti,\nKupendana nawe kamwe siachi;\nHari za kifo zikinienea,\nSasa nakupenda, kuzidi pia."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Mawanda mazuri, na masikani\nNiyatazamapo huko Mbinguni,\nTasema na taji nitakayovaa\nSasa nakupenda, kuzidi pia."
+      }
+    ]
+  }

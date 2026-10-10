@@ -1,0 +1,28 @@
+ {
+    "number": 37,
+    "title": "Waitwa, mwovu, na Bwana",
+    "chorus": "Unaitwa! Itika tu!\nUmwendee Bwana Yesu!\nSifiche makosa yako,\nUungame dhambi zako!\nKristo tu umuamini,\nNdiyo njia ua Mbinguni.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Waitwa, mwovu, na Bwana\nUmwendee hima sana,\nUsafiwe dhambi zako,\nHumwoni ni mwema kwako?"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Alilipa damu yake\nIli kukukweza kwake;\nAlikufa yeye Bwana,\nMimi nawe tuwe wema."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ukifanywa kuwa mwema\nMwishoni utasimama,\nUtaingia rahani\nNa wapenzi wa zamani."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ni mwanga tu, nchi ile;\nUovu hauko kule,\nKwamba wataka ufike\nSharti huku uosheke."
+      }
+    ]
+  }
+  

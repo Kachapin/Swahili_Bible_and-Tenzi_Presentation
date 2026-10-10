@@ -1,0 +1,37 @@
+{
+  "number": 4,
+  "title": "Jina la Yesu, salamu!",
+  "chorus": null,
+  "stanzas": [
+    {
+      "type": "stanza",
+      "index": 1,
+      "text": "Jina la Yesu, Salamu!\nLisujudieni,\nNinyi Mbinguni, hukumu\nNa enzi mpeni."
+    },
+    {
+      "type": "stanza",
+      "index": 2,
+      "text": "Enzi na apewe kwetu,\nWatetea dini;\nMkuzeni Bwana wenu,\nNa enzi mpeni."
+    },
+    {
+      "type": "stanza",
+      "index": 3,
+      "text": "Enyi mbegu ya rehema,\nNanyi msifuni;\nMmeponywa kwa neema,\nNa enzi mpeni."
+    },
+    {
+      "type": "stanza",
+      "index": 4,
+      "text": "Wenye dhambi kumbukeni\nYa msalabani,\nKwa furaha msifuni,\nNa enzi mpeni."
+    },
+    {
+      "type": "stanza",
+      "index": 5,
+      "text": "Kila mtu duniani\nMsujudieni,\nKote-kote msifuni,\nNa enzi mpeni."
+    },
+    {
+      "type": "stanza",
+      "index": 6,
+      "text": "Sisi na wao pamoja\nTu mumo sifani,\nMilele sifa ni moja,\nNi “Enzi mpeni.”"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "number": 19,
+    "title": "Ndiyo dhamana, Yesu wangu",
+    "chorus": "Habari njema, raha yangu\nYesu ndiye Mwokozi wangu,\nHabari njema, raha yangu\nYesu ndiye mwokozi wangu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ndiyo dhamana, Yesu\nwangu;\nHunipa furaha za Mbingu;\nMrithi wa wokovu wake\nNimezawa kwa Roho yake."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kumsalimu moyo wangu,\nMara namwona raha yangu;\nAniletea malaika,\nWananilinda, taokoka."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Sina Kinyume,\nnashukuru,\nMchana kutwa huja kwangu;\nUsiku kucha kuna nuru;\nMwokozi wangu; ndimi huru."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Hali na mali anitwaa!\nMara namwona anifaa,\nNami nangoja kwa subira;\nAkiniita, nije mara."
+      }
+    ]
+ }
+  

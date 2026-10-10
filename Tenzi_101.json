@@ -1,0 +1,33 @@
+{
+    "number": 101,
+    "title": "Twonane milele",
+    "chorus": "Twonane milele,\nTwonane bandarini kule;\nTwonane milele,\nTwonane bandarini kule.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nyimbo na tuziimbe tena\nZa alivyotupenda mbele;\nKwa damu ya thamani sana!\nMbinguni twonane milele."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Hupozwa kila aoshwaye,\nKwa damu ya Kondoo yule;\nAtaishi afurahiye\nVya Yesu mbinguni milele."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Hata sasa hufurahia\nTamu yake mapenzi yale,\nJe, kwake tukifikilia,\nKutofarakana milele?"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Twende mbele kwa jina\nlake,\nHata aje mwokozi yule,\nAtatukaribisha kwake,\nTutawale naye milele."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Sauti zetu tuinue\nKumsifu Mwokozi yule,\nIli watu wote wajue\nWokovu u kwake milele."
+      }
+    ]
+  }
+ 

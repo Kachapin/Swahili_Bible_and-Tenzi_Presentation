@@ -1,0 +1,28 @@
+{
+    "number": 52,
+    "title": "Yote namtolea Yesu",
+    "chorus": "Yote kwa Yesu,\nYote kwa Yesu,\nYote kwako, Ee mwokozi,\nNatoa sasa.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yote namtolea Yesu\nNampa moyo wote,\nNitampenda siku zote,\nNamwandama kila saa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yote namtolea Yesu,\nNainamia pake;\nNimeacha na anasa,\nKwako Yesu nipokee,"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yote namtolea Yesu,\nNifanye niwe wako;\nNipe Roho yako, Bwana,\nAnilinde daima,"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yote namtolea Yesu,\nNami naona sasa;\nFuraha ya ukombozi,\nNasifu jina lake,"
+      }
+    ]
+  }
+ 

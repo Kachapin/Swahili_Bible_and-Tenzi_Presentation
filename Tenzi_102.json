@@ -1,0 +1,27 @@
+ {
+    "number": 102,
+    "title": "Kazi yangu ikiisha",
+    "chorus": "Nitamjua, nitamjua,\nnikimwona uso kwa uso;\nNitamjua, nitamjua, kwa\nalama za misumari.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kazi yangu ikiisha,\nnami nikiokoka;\nNa kuvaa kutokuharibika,\nNitamjua Mwokozi nifikapo\nng’amboni;\nAtakuwa wa kwanza\nkunilaki."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Furaha nitapata nikiona\nmakao\nBwana aliyotuandalia;\nNitamsifu mwokozi kwa\nrehema na pendo\nVilivyonipa pahali\nMbinguni."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nao waliokufa katika\nBwana Yesu,\nNitawaona tena huko juu;\nLakini nifikapo kwake huko\nMbinguni,\nNataka kumwona Mwokozi\nkwanza."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Milangoni mwa mji Bwana\natanipitisha,\nPasipo machozi wala\nhuzuni.\nNitauimba wimbo wa milele;\nlakini\nNataka kumwona Mwokozi\nkwanza."
+      }
+    ]
+  }

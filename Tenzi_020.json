@@ -1,0 +1,27 @@
+{
+    "number": 20,
+    "title": "Ninaye rafiki naye",
+    "chorus": null,
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ninaye Rafiki naye\nAlinipenda mbele;\nKwa kamba za pendo zake\nNimefungwa milele;\nAukaza moyo wangu,\nUache mageule,\nMimi wake, yeye wangu;\nNdimi naye milele."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ninaye rafiki ndiye\nAliyenifilia;\nAlimwaga damu yake\nKwa watu wote pia;\nSina kitu mimi tena,\nNikiwa navyo tele;\nPia vyote ni amana\nNdimi wake milele."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ninaye rafiki naye\nUwezo amepewa;\nAtanilinda mwenyewe,\nJuu tachukuliwa;\nNikitazama Mbinguni,\nHupata nguvu tele;\nSasa natumika chini,\nKisha juu milele."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ninaye rafiki naye,\nAnao moyo mwema;\nNi mwalimu, kiongozi,\nMlinzi wa daima;\nNi nani wa kunitenga\nNa mapenzi ya mbele?\nKwake nimetia nanga,\nNdimi wake milele."
+      }
+    ]
+  }

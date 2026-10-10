@@ -1,0 +1,33 @@
+ {
+    "number": 11,
+    "title": "Nina haja nawe",
+    "chorus": "Yesu, nakuhitaji\nVivyo kila saa!\nNiwezeshe, Mwokozi,\nNakujia.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nina haja nawe\nKila saa;\nHawezi mwingine\nKunifaa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nina haja nawe;\nKaa nami,\nNa maonjo haya,\nHayaumi."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nina haja nawe;\nKila hali,\nMaisha ni bure,\nUli mbali."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nina haja nawe,\nNifundishe\nNa ahadi zako\nZifikishe."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Nina haja nawe,\nMweza yote,\nNi wako kabisa\nSiku zote."
+      }
+    ]
+  }
+ 

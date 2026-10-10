@@ -1,0 +1,27 @@
+{
+    "number": 80,
+    "title": "Wamwendea Yesu kwa kusafiwa",
+    "chorus": "Kuoshwa, kwa damu,\nItutakasayo ya kondoo;\nZiwe safi nguo nyeupe mno;\nUmeoshwa kwa damu ya kondoo?",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Wamwendea Yesu kwa\nkusafiwa,\nNa kuoshwa kwa damu ya\nkondoo?\nJe, neema yake umemwagiwa?\nUmeoshwa kwa damu ya\nkondoo?"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wamwandama daima\nmkombozi\nNa kuoshwa na damu ya\nkondoo?\nYako kwa msulubiwa makazi,\nUmeoshwa kwa damu ya\nkondoo?"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Atakapokuja Bwana\n–arusi\nUwe safi kwa damu ya\nkondoo!\nYafae kwenda mbinguni\nmavazi\nYafuliwe kwa damu ya\nkondoo."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yatupwe yaliyo na\ntakataka,\nNa uoshwe kwa damu ya\nkondoo.\nHuoni kijito chatiririka\nNa uoshwe kwa damu ya\nkondoo?"
+      }
+    ]
+  }

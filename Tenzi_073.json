@@ -1,0 +1,27 @@
+  {
+    "number": 73,
+    "title": "Yesu zamani Bethilehemu",
+    "chorus": "Akaja kwa mimi; akaja kwa\nmimi;\nNdiye mwaokozi wa\nulimwengu,\nAkaja kwa mimi.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu zama Bethilehemu,\nAliyezaliwa kwa aibu,\nNdiye mwakozi wa\nulimwengu,\nAkaja kwa mimi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu akafa msalabani,\nKuniponya akalipa deni,\nNi la ajabu ya jinsi gani\nKunifia mimi!\n\nKunifia mimi! Kunifia\nmimi!\nNi la ajabu ya jinsi gani\nKunifia mimi."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ni yeye huyo tangu\nasili;\nNa nilipotanga-tanga mbali\nAlikuja kwa upole, kweli\nKuniita mimi.\n\nKuniita mimi; Kuniita mimi;\nAlikuja kwa upole, kweli\nKuniita mimi"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yesu kristo atarudi\ntena,\nHilo lanifurahisha sana.\nYeye Bwana akionekana\nKunijia mimi.\n\nKunijia mimi, kunijia\nmimi,\nYeye Bwana akionekana\nKunijia mimi"
+      }
+    ]
+  }

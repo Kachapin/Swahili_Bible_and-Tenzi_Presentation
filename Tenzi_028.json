@@ -1,0 +1,28 @@
+{
+    "number": 28,
+    "title": "Anipenda ni kweli",
+    "chorus": "Yesu anipenda,\nYesu anipenda,\nKweli anipenda,\nMungu amesema.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Anipenda ni kweli;\nMungu anena hili;\nSisi wake watoto;\nkutulinda si zito."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kwa kupenda akafa\nNiokoke na kufa;\nAtazidi taka,\nSana ataniweka."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Anipenda kabisa;\nNiuguapo sasa\nAnitunza Mbinguni\nNniliyelala chini."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Kunipenda haachi,\nTu sote hapa chini\nBaada ya mashaka\nKwake tanipeleka."
+      }
+    ]
+  }
+  

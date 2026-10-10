@@ -1,0 +1,23 @@
+{
+    "number": 38,
+    "title": "Twende kwa Yesu",
+    "chorus": "Na furaha tutaiona,\nMioyo ikitakata sana,\nKwako, Mwokozi, kuonana,\nNa milele kukaa.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Twende kwa Yesu mimi nawe,\nNjia atwonya tuijue\nImo Chuoni; na Mwenyewe,\nHapa asema, Njoo!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "”Wana na waje”, atwambia,\nFurahini mkisikia,\nNdiye mfalme wetu pia,\nNa tumtii, Njoo."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Wangojeani? Leo yupo;\nSikiza sana asemapo;\nHuruma zake zikiwapo,\nEwe kijana, Njoo."
+      }
+    ]
+  }
+  

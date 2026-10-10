@@ -1,0 +1,31 @@
+ {
+    "number": 53,
+    "title": "Wewe umechoka sana",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Wewe umechoka sana?\nWataka raha?\nKwake Yesu utapata furaha."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Alama anazo yeye?\nSasa! makovu ya mikono, na miguu,\nNa mbavu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nacho kimivukwa taji\nKichwa cha huba?\nAlivikwa taji kweli miiba."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Huku nikimfuata nipate nini?\nMaonjo nje na ndani amani."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Kwamba namwandama Bwana,\nMwisho ni nini?\nNi furaha na salama\nMbinguni."
+      }
+    ]
+  }

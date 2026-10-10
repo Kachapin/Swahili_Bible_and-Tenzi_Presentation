@@ -1,0 +1,37 @@
+{
+  "number": 7,
+  "title": "Ni tabibu wa karibu",
+  "chorus": "Imbeni, malaika,\nSifa za Yesu Bwana;\nPweke limetukuka\nJina lake Yesu.",
+  "stanzas": [
+    {
+      "type": "stanza",
+      "index": 1,
+      "text": "Ni tabibu wa karibu;\nTabibu wa ajabu;\nNa rehema za daima;\nNi dawa yake njema."
+    },
+    {
+      "type": "stanza",
+      "index": 2,
+      "text": "Hatufai kuwa hai,\nWala hatutumai,\nIla kweli yeye ndiye\nAtupumzishaye."
+    },
+    {
+      "type": "stanza",
+      "index": 3,
+      "text": "Dhambi pia na hatia\nAmetuchukulia;\nTwenendeni na amani\nHata kwake Mbinguni."
+    },
+    {
+      "type": "stanza",
+      "index": 4,
+      "text": "Huliona tamu jina\nLa Yesu Kristo Bwana,\nYuna sifa mwenye kufa\nAsishindwe na kufa."
+    },
+    {
+      "type": "stanza",
+      "index": 5,
+      "text": "Kila mume asimame,\nSifa zake zivume;\nWanawake na washike\nKusifu jina lake."
+    },
+    {
+      "type": "stanza",
+      "index": 6,
+      "text": "Na vijana wote tena,\nWampendao sana\nWaje kwake wawe wake\nKwa utumishi wake."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+  {
+    "number": 14,
+    "title": "Yesu kwa imani",
+    "chorus": null,
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu kwa imani,\nNakutumaini,\nPeke yako;\nNisikie sasa,\nNa kunitakasa,\nNi wako kabisa\nTangu leo."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nipe nguvu pia\nZa kusaidia\nMoyo wangu;\nUlikufa wewe,\nWokovu nipewe\nNakupenda wewe,\nBwana wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Hapa nazunguka\nKatika mashaka,\nNa matata;\nPalipo na giza\nUtaniongoza\nHivi nitaweza\nKufuata."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Takuwa mzima\nNivushe salama\nMautini;\nSina hofu kamwe\nUkiwapo nami\nNami nikwandame\nSiku zote."
+      }
+    ]
+  }
+
+  

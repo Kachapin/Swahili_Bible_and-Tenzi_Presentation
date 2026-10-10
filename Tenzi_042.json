@@ -1,0 +1,22 @@
+{
+    "number": 42,
+    "title": "Kivulini mwa Yesu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kivulini mwa Yesu kuna Kituo:\nKituo mbali na hamu, kituo kilicho tamu.\n\nKivulini mwa Yesu kuna kituo;\nkivulini mwa Yesu kuna kituo;\nRaha tu, mle; amani tupu,\nFuraha tele; kivulini mwa Yesu\nRaha tu, mle; amani tupu,\nFuraha tele; kivulini mwa Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kivulini mwa Yesu nina amani\nIliyopita fahamu, tena itakayodumu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kivulini mwa Yesu, nina furaha;\nFuraha yenye fahari, ya kueneza habari."
+      }
+    ]
+  }
+ 

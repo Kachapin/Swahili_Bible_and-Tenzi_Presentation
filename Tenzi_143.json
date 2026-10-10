@@ -1,0 +1,22 @@
+  {
+    "number": 143,
+    "title": "Nchi nzuri yametameta",
+    "chorus": "Sisi mbali, karibu,\nTutaimba na sisi huko!",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nchi nzuri yametameta,\nHuonekana kule mbali,\nNaye Yesu hutuongoza.\nTukafike na sisi huko."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kule tutawaona wengi\nWapendwao na Yesu Bwana,\nTutashirikiana nao\nItakuwa furaha kubwa.\nSi mbali.."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Tutamwona na Bwana\nWetu,\nYesu kristo mwokozi Wetu,\nTutashangilia daima,\nTuna hamu ya kwenda Kwetu.\nSi mbali.."
+      }
+    ]
+  }

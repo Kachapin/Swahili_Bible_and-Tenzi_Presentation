@@ -1,0 +1,36 @@
+ {
+    "number": 46,
+    "title": "Twae wangu uzima",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Twae wangu uzima,\nSadaka ya daima;\nTwae saa na siku,\nZikutukuze huku."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Twae mikono nayo\nIfanye upendavyo,\nTwae yangu miguu\nKwa wongozi wako tu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Twae sauti yangu,\nNiimbe kwa Mungu tu;\nItwae na midomo,\nIjae neno lako."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Twae dhahabu pia,\nNa yote ya dunia;\nTwae yangu hekima,\nUpendavyo tumia."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Nia itwae, Mungu,\nHaitakuwa yangu;\nTwae moyo; ni wako,\nUwe makazi yako."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Twae mapenzi yangu,\nSifa za moyo wangu;\nTwae kabisa nafsi\nNiwe wako halisi."
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+ {
+    "number": 96,
+    "title": "Mle kaburini, Yesu mwokozi",
+    "chorus": "Bwana! Amefufuka,\nKifo kimeshindwa kabisa!\nGizani mle alitoka chini,\nSasa atawala huko\nMbinguni!\nYu hai! Yu hai!\nBwana Yesu yu hai!",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mle kaburini, Yesu\nMwokozi!\nAlilazwa chini, Bwana\nwangu!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Aungoja huo, Yesu\nMwokozi!\nMchana ujao, Bwana wangu!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Walinda kaburi, Yesu\nMwokozi!\nBure ni muhuri, Bwana\nwangu!"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Kifo kimeshindwa, Yesu\nmwokozi!\nPingu zimevunjwa, Bwana\nwangu!"
+      }
+    ]
+  }

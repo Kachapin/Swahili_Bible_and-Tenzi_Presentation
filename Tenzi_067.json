@@ -1,0 +1,26 @@
+  {
+    "number": 67,
+    "title": "Bwana uliyewaita",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Bwana uliyewaita\nWatakatifu wako,\nWawe mitume, wachunga,\nWalishe kundi lako;\nwanyonge na wenye hofu\nWakawa mashujaa,\nNa wapole wa kunena\nWasiwe kunyamaa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Hata leo wawataka\nWatakatifu wako,\nNawe wauliza tena\nNi nani aliyeko\nAtakaye nimtume\nAfundishe vijana?\n“Ni tayari, Bwana wangu,\nNitume mimi Bwana.”"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nitume na mimi, Bwana\nKama ulivyotumwa,\nHabari ya msamaha\nNa dhambi kutubiwa,\nNiwahubiri wakosa,\nNa waliopotea,\nWokovu u wake Bwana,\nAliyewafilia."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Astahiliye hapana\nKutamka habari,\nLakini wewe waweza\nKutufanya tayari.\nNeno lako tulijue,\nTupe na roho yako,\nHayatakuwa ya bure,\nHaya maneno yako."
+      }
+    ]
+  }

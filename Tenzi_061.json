@@ -1,0 +1,27 @@
+{
+    "number": 61,
+    "title": "Tumesikia mbiu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Tumesikia mbiu:\nYesu lo! aponya,\nUtangazeni kote,\nYesu, lo! aponya.\nTiini amri hiyo;\nNchini na baharini,\nEnezeni mbiu hii;\nYesu, lo! Aponya."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Imbeni na vitani:\nYesu, lo! Aponya;\nKwa nguvu ya kombozi,\nYesu, lo! Aponya.\nImbeni wenye shida,\nUnapoumwa moyo.\nNa kaburini imba;\nYesu, lo! Aponya."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Mawimbini uenee;\nYesu, lo! Aponya;\nWenye dhambi jueni;\nYesu, lo! Aponya.\nVisiwa na viimbe,\nVilindi itikeni,\nNa nchi shangilieni;\nYesu, lo! Aponya."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Upepo utangaze;\nYesu, lo! Aponya;\nMataifa yashangaaa;\nYesu lo! Aponya.\nMilimani, bondeni,\nSauti isikike\nYa wimbo wa ushindi;\nYesu, lo! Aponya."
+      }
+    ]
+  }
+  

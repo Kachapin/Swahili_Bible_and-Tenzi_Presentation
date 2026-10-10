@@ -1,0 +1,22 @@
+{
+  "number": 8,
+  "title": "Taji mvikeni",
+  "chorus": null,
+  "stanzas": [
+    {
+      "type": "stanza",
+      "index": 1,
+      "text": "Taji mvikeni,\nTaji nyingi tena,\nKondoo mwake kitini,\nBwana wa mabwana;\nNami tamsifu\nAlikufa kwangu,\nNi mfalme mtukufu,\nMkuu wa Mbingu."
+    },
+    {
+      "type": "stanza",
+      "index": 2,
+      "text": "Taji mvikeni\nMwana wa bikira;\nAnazovaa kichwani\nAliteka nyara;\nShiloh wa wanabii,\nMchunga wa watu,\nShina na tanzu vya Yese,\nWa Bethilehemu."
+    },
+    {
+      "type": "stanza",
+      "index": 3,
+      "text": "Taji mvikeni\nBwana wa mapenzi;\nJeraha zake ni shani\nNi vito vya enzi,\nMbinguni hakuna\nHata malaika\nAwezaye kuziona\nPasipo kushangaa."
+    }
+  ]
+}

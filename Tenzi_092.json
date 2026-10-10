@@ -1,0 +1,28 @@
+ {
+    "number": 92,
+    "title": "Nataka nimjue Yesu",
+    "chorus": "Zaidi, zaidi, nimfahamu\nYesu,\nNijue pendo lake, na\nwokovu wake kamili.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nataka nimjue Yesu,\nNa nizidi kumfahamu,\nNijue pendo lake, na\nWokovu wake kamili."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nataka nione Yesu,\nNa nizidi kusikia,\nAnenapo kitabuni,\nKujidhihirisha kwangu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nataka nifahamu, na\nNizidi kupambanua\nMapenzi yake, nifanye\nYale yanayompendeza."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nataka nikae naye,\nKwa mazungumzo zaidi,\nNizidi kuwaonyesha\nWengine wokovu wake."
+      }
+    ]
+  }
+  

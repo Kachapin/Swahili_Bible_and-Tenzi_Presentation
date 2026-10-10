@@ -1,0 +1,34 @@
+{
+    "number": 18,
+    "title": "Akifa Yesu nikafa naye",
+    "chorus": "Nyakati zote nimo pendoni,\nNyakati zote ni uzimani,\nHumtazama hata atokee,\nNyakati zote mimi ni wake.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Akifa Yesu nikafa naye\nUzima upya huishi naye;\nHumtazama mpaka nje:\nNyakati zote ni wake yeye."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Vita sipigi visivyo\nhaki,\nNa Bwana wangu hapiganiki;\nBeramu yake haitwaliki,\nNapo po pote hila sitaki."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Sina mashaka, akawa\nmbali;\nMizigo yote aihimili;\nAnanituliza Imanweli,\nNyakati zote mimi husali."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Sina huzuni na mimi\nsidhii;\nSimwagi chozi, wala\nsiguni;\nSikuti afa, ila kitini\nDaima hunifikiri mimi."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Kila unyonge huusikia;\nKila ugonjwa kwake hupoa;\nYesu ni mwenye kuniokoa\nNyakati zote hunijalia."
+      }
+    ]
+  }
+
+  

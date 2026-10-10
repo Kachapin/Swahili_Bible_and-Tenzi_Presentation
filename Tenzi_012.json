@@ -1,0 +1,33 @@
+ {
+    "number": 12,
+    "title": "Ewe Roho wa Mbinguni",
+    "chorus": null,
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ewe Roho wa Mbinguni\nUje kwetu sasa.\nUfanye makazi yako\nNdani ya Kanisa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ndiwe mwanga, umulike\nTupate jikana;\nMengi kwetu yapunguka,\nTujalize, Bwana."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ndiwe Moto, teketeza\nTaka zetu zote:\nMoyo na iwe sadaka\nYa Mwokozi, yote."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ndiwe Umande, na kwako\nTutaburudika,\nNchi kavu itakuwa\nNi yenye Baraka."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Roho wa Mbinguni uwe\nNasi hapa chini,\nMwili uufananishe\nNa kichwa Mbinguni."
+      }
+    ]
+  }
+  

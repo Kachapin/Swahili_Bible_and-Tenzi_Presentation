@@ -1,0 +1,26 @@
+ {
+    "number": 71,
+    "title": "Mteteeni Yesu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mteteeni Yesu,\nMlio askari;\nInueni beramu,\nMukae tayari,\nKwenda nae vitani,\nSisi hatuchoki\nHata washindwe pia\nYeye amiliki."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Mteteeni Yesu,\nVita ni vikali;\nLeo siku ya Bwana,\nAtashinda kweli,\nWaume twende naye,\nAdui ni wengi,\nLakini kwake Bwana\nTuna nguvu nyingi."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Mteteeni Yesu,\nWenye ushujaa;\nNguvu zenu za mwili\nHazitatufaa;\nSilaha ya injili\nVaeni daima,\nKesheni mkiomba,\nSirudini nyuma."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Mteteeni Yesu,\nVita ni vikali,\nWengi wamdharau,\nHawamkubali,\nIla atamiliki\nTusitie shaka,\nKuwa naye vitani\nTwashinda hakika."
+      }
+    ]
+  }

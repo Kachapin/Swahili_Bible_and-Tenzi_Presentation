@@ -1,0 +1,21 @@
+{
+"number": 9,
+"title": "Yesu kwetu ni rafiki",
+"stanzas": [
+{
+"type": "stanza",
+"index": 1,
+"text": "Yesu kwetu ni rafiki,\nHwambiwa haja pia;\nTukiomba kwa Babaye\nMaombi asikia;\nLakini twajikosesha,\nTwajitweka vibaya;\nKwamba tulimwomba Mungu\nDua angesikia."
+},
+{
+"type": "stanza",
+"index": 2,
+"text": "Una dhiki na maonjo?\nUna mashaka pia.\nHaifai kufa moyo,\nDua atasikia\nHakuna mwingine mwema\nWa kutuhurumia;\nAtujua tu dhaifu;\nMaombi asikia."
+},
+{
+"type": "stanza",
+"index": 3,
+"text": "Je, hunayo hata nguvu,\nHuwezi kuendelea,\nUjapodharauliwa\nUjaporushwa pia,\nWatu wange kudharau,\nWapendao dunia,\nHukwambata mikononi,\nDua atasikia."
+}
+]
+}

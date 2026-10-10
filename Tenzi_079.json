@@ -1,0 +1,31 @@
+  {
+    "number": 79,
+    "title": "Msalaba wa aibu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Msalaba wa aibu,\nUlinipa amani;\nUliniondoa kifungoni,\nNilimotesekea."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ee, Mwokozi wangu, Yesu\nNitamwendea nani?\nNajiweka msalabani,\nNikaoshwe damuni."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nakupenda Bwana Yesu,\nKwa kunipenda kwako,\nNapendezwa nikutumikie\nMaisha yangu yote."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Usifiwe Bwana Yesu,\nKwa ulivyonifia,\nAleluya, nakushukuru,\nUliyenikomboa."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Msalaba ulishinda\nNguvu zake adui,\nIli mimi nikombolewe,\nNiwe mwana wa Mungu."
+      }
+    ]
+  }

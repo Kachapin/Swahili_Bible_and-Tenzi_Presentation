@@ -1,0 +1,41 @@
+  {
+    "number": 86,
+    "title": "Damu imebubujika",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Damu imebubujika,\nNi ya Imanweli,\nWakioga wenye taka,\nHusafiwa kweli."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ilimpa kushukuru\nMwivi mautini;\nNami nisiye udhuru,\nYanisafi ndani."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kondoo wa kuuawa,\nDamu ina nguvu,\nWako wote kuokoa,\nKwa utimilivu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Bwana tangu damu yako\nKunisafi kale,\nNimeimba sifa zako;\nTaimba milele."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Nikifa tazidi kwimba\nSifa za wokovu\nUlimi ujaponyamaa\nVumbini mwa ufu."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Bwana, umenikirimu\nNisiyestahili\nKwa damu yako, sehemu\nYa mali ya kweli."
+      },
+      {
+        "type": "stanza",
+        "index": 7,
+        "text": "Nikubali kukwimbia,\nMbinguni milele,\nMungu nitakusifia\nJina lako pweke."
+      }
+    ]
+  }

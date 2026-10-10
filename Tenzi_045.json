@@ -1,0 +1,33 @@
+{
+    "number": 45,
+    "title": "Mtazame Huyo aliyeangikwa juu",
+    "chorus": "Tazama! Tazama! Tazama uishi!\nMtazame huyo aliyeangikwa juu\nHivi sasa upate ishi.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mtazame Huyo!\nAliyeangikwa juu\nHivi sasa upate ishi.\nMwenye – dhambi dhaifu, mtazame tu\nWala usifanye tashwishi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kama mwana kondoo hakuondoa dhambi,\nNa makosa yako maovu!\nKama deni zetu zote hakulipa\nMbona imemwagika damu?"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Si kutubu na sala ikomboayo,\nIla damu ndiyo salama;\nNa aliyeimwaga aweza, sasa,\nDhambi zako kukufutia."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Usiwe na shaka, Mungu amesema,\nHakuna alilolisaza;\nHapo alipokuja alitimiza\nKazi zote alizoanza."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Basi twae uzima, kwa kufurahi\nUpokee kwa Bwana, sasa;\nUjijue hakika kwake kuishi\nYesu aishiye kabisa."
+      }
+    ]
+  }
+ 

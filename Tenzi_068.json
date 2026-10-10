@@ -1,0 +1,36 @@
+  {
+    "number": 68,
+    "title": "Mungu msaada wetu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mungu msaada wetu\nTangu myaka yote,\nNdiwe tumaini letu\nLa zamani zote."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kivuli cha kiti chako\nNdiyo ngome yetu.\nWatosha mkono wako\nNi ulinzi wetu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kwanza havijakuwako\nNchi na milima,\nNdiwe Mungu; chini yako\nTwakaa salama."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Na myaka elfu ni kama\nSiku moja kwako;\nUtanilinda daima\nTu wenyeji wako."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Binadamu huondoka,\nMwisho hana kitu;\nKama ndoto hutoweka\nNdivyo hali yetu."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Ila wewe Mungu wetu\nNdiwe wa kudumu;\nNdiwe bora, ngome yetu\nTwakaa dawamu."
+      }
+    ]
+  }

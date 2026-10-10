@@ -1,0 +1,21 @@
+  {
+    "number": 116,
+    "title": "Bwana, U sehemu yangu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Bwana u sehemu yangu,\nRafiki yangu wewe;\nKatika safari yangu\nTatembea na wewe;\nPamoja na wewe,\nPamoja na wewe,\nKatika safari yangu\nTatembea na wewe."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Mali hapa sikutaka,\nIli niheshimiwe,\nNa yanikute mashaka\nSawa sawa na wewe,\nPamoja na wewe,\nPamoja na wewe,\nHeri nikute mashaka\nSawasawa na wewe."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Niongoze safarini,\nMbele unichukue\nMlangoni kwa Mbinguni\nNiingie na wewe.\nPamoja na wewe,\nPamoja na wewe,\nMlangoni kwa mbinguni,\nNiingie na wewe."
+      }
+    ]
+  }

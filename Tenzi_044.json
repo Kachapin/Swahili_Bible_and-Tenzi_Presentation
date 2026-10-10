@@ -1,0 +1,28 @@
+{
+    "number": 44,
+    "title": "Kukawa na giza dunia yote",
+    "chorus": "Jua, Yesu hana mwenziwe!\nNalipofuka kama wewe:\nNakuombea umwone nawe,\nNi mwanga wa ulimwengu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kukawa na giza dunia yote,\nNi Mwanga wa ulimwengu,\nIkaisha ulipokuja yote,\nNi mwanga wa ulimwengu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Hatuna giza tudumuo mwake,\nNi mwanga wa ulimwengu;\nTumwandamiapo nyayoni mwake\nNi mwanga wa ulimwengu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Enyi wa gizani wenye kutanga!\nNi mwanga wa ulimwengu,\nKaulekeeni, mpate lenga;\nNi mwanga wa ulimwengu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Tutamwona Mwokozi juu ya mbingu\nNi mwanga wa ulimwengu:\nNi nuru za mbingu kondoo wa Mungu\nNi mwanga wa ulimwengu."
+      }
+    ]
+  }
+  

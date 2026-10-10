@@ -1,0 +1,36 @@
+  {
+    "number": 110,
+    "title": "Mapya ni mapenzi hayo",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mapya ni mapenzi hayo,\nAsubuhi tunayo,\nSaa za giza hulindwa\nKwa uzima kuamshwa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kila siku, Mapya pia\nRehema, wema, na afya,\nWokofu, na msamaha,\nMawazo mema, furaha."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Tukijitahidi leo\nNa mwendo utupasao,\nMungu atatueleza\nYatakayompendeza."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Mambo yetu ya dunia\nMungu atayang’aria,\nMatata atageuza\nYawe kwetu ya Baraka."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Yaliyo madogo, haya\nMungu tukimfanyia,\nYatosha: tutafaidi\nHuvuta kwake zaidi."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Ewe Bwana, siku zote,\nTusaidie kwa yote:\nMwendo wetu wote vivyo,\nUwe kama tuombavyo."
+      }
+    ]
+  }

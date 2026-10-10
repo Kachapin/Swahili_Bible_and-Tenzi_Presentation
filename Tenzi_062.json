@@ -1,0 +1,31 @@
+{
+    "number": 62,
+    "title": "Bwana wa mabwana",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Bwana wa mabwana,\nMwenye nguvu sana\nTwakusihi:\nNeno la milele\nNa liende mbele,\nWaongoke tele\nKwa Mwokozi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Tunaowaona\nWanavyopatana,\nKulipinga,\nHawataliweza\nNeno, kulitweza:\nHuwaje! Kucheza:\nNa upanga?"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Heri wajitunze\nIli wapatane,\nNa Mwokozi;\nWatafute sana,\nWapate kuona,\nYesu kuwa Bwana,\nMkombozi."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Mungu awaita\nWasije kukuta\nPigo lake;\nHakuona vyema\nWakose uzima,\nAwape rehema,\nWaokoke."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Mwenye utukufu\nTunamshukuru\nYeye pweke!\nNasifiwe sana,\nBaba, naye Mwana,\nNa wa tatu tena\nRoho yake."
+      }
+    ]
+  }

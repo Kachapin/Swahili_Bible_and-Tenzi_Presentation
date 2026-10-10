@@ -1,0 +1,27 @@
+{
+    "number": 30,
+    "title": "Nilikuwa kondoo aliyepotea",
+    "chorus": null,
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nilikuwa kondoo\naliyepotea,\nSikupenda zizi kamwe, ila\nkutembea\nNilikuwa mwana asiyesikia,\nSikupenda baba yangu wala\nkutulia."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Na mchunga mwema\nalinitafuta,\nBaba kwa mapenzi ndiye\naliyenivuta;\nKaribu ya kufa, kwa kiu na\nkwa njaa,\nWaliniona mnyonge,\nwaliniokoa."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yesu ni mchunga,\nmwenziwe hapana,\nAliosha taka zangu, dhambi\nnyingi sana;\nKwa vidonda vyangu alitia\ndawa.\nNdiye aliyenipata, na\nkwake nalindwa."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nilikuwa kondoo\naliyepotea\nSasa nampenda Baba, na\nmchunga pia;\nKwanza nilitanga na kukosa\nsana,\nHivi nyumbani mwa Baba\nsipotei tena."
+      }
+    ]
+  }

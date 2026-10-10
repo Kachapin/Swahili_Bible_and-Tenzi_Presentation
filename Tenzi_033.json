@@ -1,0 +1,27 @@
+{
+    "number": 33,
+    "title": "Dhambi ikikulemea",
+    "chorus": "Tegemea, tegemea,\nakwita sasa.\nNi Mwokozi, ni Mwokozi; amini sasa.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Dhambi ikikulemea,\nKwa Bwana rehema;\nHivi sasa tegemea\nNeno la salama."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu amemwaga damu\nYa nyingi baraka;\nNawe sasa oga mumu\nZioshwamo taka."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ni njia yeye hakika\nHwongoza rahani;\nUsikawe kumshika,\nUwe barakani."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Karibu nawe wingie\nMwetu safarini,\nTwende tukamwamkie,\nMilele Mbinguni."
+      }
+    ]
+  }

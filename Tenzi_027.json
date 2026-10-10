@@ -1,0 +1,28 @@
+{
+    "number": 27,
+    "title": "Mungu ni pendo",
+    "chorus": "Sikilizeni furaha yangu,\nMungu ni pendo, anipenda.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mungu ni pendo, apenda\nwatu;\nMungu ni pendo, anipenda"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nilipotea katika\ndhambi,\nNikawa mtumwa wa shetani."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Akaja Yesu kuniokoa,\nYeye kanipa kuwa huru"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Sababu hii namtumikia,\nNamsifu yeye siku zote."
+      }
+    ]
+  }
+  

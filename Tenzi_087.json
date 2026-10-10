@@ -1,0 +1,32 @@
+  {
+    "number": 87,
+    "title": "Deni ya dhambi ilimalizika",
+    "chorus": "Deni ya dhambi,\nMsalabani,\nIlimalizikia,\nNi huru kabisa.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Deni yangu ya dhambi,\nYesu amelipa.\nKwake msalabani\nNilipewa uzima."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Bwana Yesu asema,\n“Mwanangu dhaifu,\nUwezo wa ushindi\nHupatikana kwangu.”"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Bwana, kweli naona,\nNguvu zako pekee\nHuondoa ukoma,\nNiwe kipya kiumbe."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Sina wema moyoni,\nNidai neema,\nNakubali kabisa,\nKwa damu kusafiwa."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Hata huko Mbinguni\nMiguuni pake,\n“Yesu alinifia,”\nNitaimba milele."
+      }
+    ]
+  }

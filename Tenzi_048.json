@@ -1,0 +1,27 @@
+ {
+    "number": 48,
+    "title": "Naweka dhambi zangu",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Naweka dhambi zangu\nJuu yake Bwana\nKuziondoa, kwangu\nHulemea sana;\nNa uaili wangu\nAmeuondoa;\nDawa yangu ni damu,\nKwa hiyo napoa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Na uhitaji wangu\nNitamjuvisha\nKwa upungufu wangu\nYeye anatosha;\nMajonzi yangu yote\nNa mizigo yangu,\nAtachukua vyote\nYesu Bwana wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Na roho yangu nayo,\nImechoka sana;\nNamletea hiyo\nIlindwe na Bwana;\nNi jema jina lake,\nNalo lapendeza,\nImanweli na kwake\ntutalitukuza."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Natamani daima\nNiwe kama Bwana,\nMpole, tena mwema,\nWa mapenzi sana;\nZaidi natamani\nKwenda kwake juu,\nNikaone mbinguni\nEnzi yake kuu."
+      }
+    ]
+  }
+  

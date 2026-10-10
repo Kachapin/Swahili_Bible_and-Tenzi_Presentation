@@ -1,0 +1,27 @@
+  {
+    "number": 157,
+    "title": "Kijito cha utakaso",
+    "chorus": "Kijito cha utakaso,\nNizame kuoshwa humo\nNamsifu Bwana kwa hiyo\nNimepata utakaso",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kijito cha utakaso\nni damu ya Yesu,\nBwana anao uwezo\nkunipa wokovu"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Viumbe vipya naona;\ndamu ina nguvu,\nimeharibu uovu\nulionidhulumu"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Naondoka kutembea\nnuruni mwa mbingu,\nNa moyo safi kabisa\nkumpendeza Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ni neema ya ajabu\nkupakwa na damu;\nna Bwana Yesu kumjua\nYesu wa Msalaba."
+      }
+    ]
+  }

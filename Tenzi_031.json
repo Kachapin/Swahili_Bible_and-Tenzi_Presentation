@@ -1,0 +1,32 @@
+ {
+    "number": 31,
+    "title": "Msingi imara",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Msingi imara, enyi wa kweli,\nUmekwisha pigwa kwa neno hili;\nAongeze lipi? Mnayo pia\nKwa Yesu mliomkimbilia."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wambiwapo vuka maji ya giza,\nMito ya mashaka taipunguza;\nTakupa nawe, nikuwezeshe,\nIpata kufaa, isikutishe!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Utakapopishwa ndani ya moto\nNnguvu nitakupa, upate pato;\nHuteketezwi, ila taka zako,\nNa zitasalia dhahabu zako."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Hata zije mvi, walio wangu\nHawaoni kwisha mapenzi yangu;\nNazo zitakapowenea, ndipo\nMabegani mwangu niwatwekapo."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Na mtu aliyenitegemea\nKamwe kwa adui sitamtia;\nNguvu za jehanam zijapotisha,\nMtu wangu kamwe sitamuacha."
+      }
+    ]
+  }
+  

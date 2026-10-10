@@ -1,0 +1,27 @@
+{
+    "number": 81,
+    "title": "Chini ya msalaba",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Chini ya msalaba\nNataka simama;\nNdio mwamba safarini,\nWa kivuli chema;\nNi kweli kwa roho yangu\nNi tuo kamili,\nTatua mzigo wangu\nWakati wa hari."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Hapa ni pema sana,\nNi ngome kamili;\nHapa yameonekana,\nMapenzi ya kweli;\nKama alivyoonyeshwa\nYakobo zamani,\nMsalaba umekuwa\nNgazi ya Mbinguni."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Na Yesu msalabani\nWalimkemea,\nAlikufa niokoke\nNiliyepotea;\nNaona ajabu sana\nYa mambo mawili\nJinsi alivyonipenda,\nNisiyestahili."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Atakayeonana,\nNa Yesu Mbinguni,\nNjia yake aanzapo\nNi msalabani;\nWokovu upo hapa tu,\nMwingine hapana,\nKisha kuna furaha kuu\nPamoja na Bwana."
+      }
+    ]
+  }
+  

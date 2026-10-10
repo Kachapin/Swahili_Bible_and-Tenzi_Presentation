@@ -1,0 +1,27 @@
+{
+    "number": 60,
+    "title": "Waponyeni watu",
+    "chorus": "Walio kifoni waokoeni,\nMwokozi yuko, wahubirini.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Waponyeni watu wamo kifoni,\nWatoeni walio shimoni;\nNa aangukaye mumzuie;\nYa Bwana Yesu wahubirini."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wajapokawia anangojea,\nAwasubiri waje tobani;\nMsiwadharau, muwaonyeni;\nHuwasamehe; wakiamini."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Myoyoni mwa ndani, yule shetani\nAmeyaseta mawazo yao;\nLakini kwa Bwana huwa mazima,\nTukiwavuta kwa pole hao."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Kawaokoeni, wale njiani,\nMutimize mapenzi ya Bwana;\nNa kwa nguvu zake warudi kwake,\nKwa subira waonyeni sana."
+      }
+    ]
+  }

@@ -1,0 +1,37 @@
+ {
+    "number": 35,
+    "title": "Twende kwake",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Twende kwake, twende kwake, kwake Yesu sasa,\nSasa twende kwake, kwake Yesu sasa!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Akwokoe. akwokoe, Bwana Yesu sasa!\nSasa akwokoe, Bwana Yesu, sasa!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Msadiki, msadiki, Bwana Yesu sasa,\nSasa msadiki, Bwana Yesu sasa!"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Anaweza, anaweza, Bwana Yesu sasa,\nSasa anaweza, Bwana Yesu sasa!"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Anapenda, anapenda, Bwana Yesu, sasa,\nSasa anapenda, Bwana Yesu sasa!"
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Njoo hima, njoo hima, kwake Yesu sasa,\nSasa njoo hima, kwake Yesu, sasa!"
+      }
+    ]
+  }
+  

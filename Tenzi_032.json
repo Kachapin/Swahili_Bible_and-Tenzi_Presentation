@@ -1,0 +1,28 @@
+{
+    "number": 32,
+    "title": "Yesu awakubali wakosa",
+    "chorus": "Tangazeni kwa bidii,\n“Akubali wakosa!”\nLiwe neno dhahiri,\n“Akubali wakosa!”",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu awakubali,\nWakosa, wahalifu,\nWambieni wa mbali\nHabari ya wokovu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Awakubali Bwana\nNeno lake amini\nWatu kila aina\nWaje kwake tengoni."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Mimi ni safi moyo\nNa mbele ya sharia,\nAliye safi roho\nKwake ilitimia."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Akubali wakosa;\nNami anikubali;\nAlivyonitakasa\nMbinguni niwasili."
+      }
+    ]
+  }
+  

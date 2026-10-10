@@ -1,0 +1,32 @@
+  {
+    "number": 83,
+    "title": "Kwa wingi wa nyama",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kwa wingi wa nyama,\nNa sadaka pia,\nHupata wapi salama,\nKwondoa hatia?"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Sadaka ni Yesu,\nHwondoa makosa;\nDhabihu mwenye jina kuu,\nAtanitakasa."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kwa yangu imani,\nNikuweke sasa\nMkono mwako kichwani\nKukiri makosa."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Roho yakumbuka\nMambo ya mtini,\nMzigo ulijitweka,\nNdiyo yangu deni."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Deni hutanguka,\nTukimuamini;\nKwa damu tumeokoka,\nTwimbe furahani."
+      }
+    ]
+  }
+ 

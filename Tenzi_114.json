@@ -1,0 +1,27 @@
+  {
+    "number": 114,
+    "title": "Bwana Mungu, nashangaa kabisa",
+    "chorus": "Roho yangu na ikuimbie\nJinsi Wewe ulivyo Mkuu,\nRoho yangu na ikuimbie\nJinsi Wewe ulivyo Mkuu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Bwana Mungu, nashangaa\nkabisa\nNikitazama kama vilivyo\nNyota, ngurumo, vitu vingi\nvyote\nviumbwavyo kwa uwezo wako."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nikitembea pote\nduniani,\nNdege huimba, nawasikia,\nMilima hupendeza macho\nsana,\nUpepo nao nafurahia."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nikikumbuka kama Wewe\nMungu\nUlivyompeleka Mwanao,\nAfe azichukue dhambi zetu,\nKuyatambua ni vigumu mno."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yesu Mwokozi\nutakaporudi\nKunichukua kwenda\nMbinguni,\nNitashukuru na kwimba\nmilele,\nWote wajue jinsi ulivyo."
+      }
+    ]
+  }

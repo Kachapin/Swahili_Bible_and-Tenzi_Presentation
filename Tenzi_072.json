@@ -1,0 +1,21 @@
+  {
+    "number": 72,
+    "title": "Twendeni! Haraka!",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Twendeni! Haraka!\nTupeleke Neno\nLiwe mwanga kwa nchi\nzilizo giza.\nBwana alisema nendeni po\npote\nKawafundisheni mataifa\nyote.\nPelekeni Injili kwa jina\nla Yesu.\nUpesi! Twendeni haraka!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Twendeni! Haraka!\nTupeleke Neno\nLa upendo wa Mungu kwa\nwatu wote;\nAliyeupenda sana ulimwengu\nAkamtoa Yesu Mwana wake\npekee\nKaleta wokovu,\ntumtangazeni.\nUpesi! Twendeni haraka!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Twendeni! Haraka!\nTupeleke Neno\nLa uzima kwa watu\nwaliokufa.\nMateka ya Shetani\nlitafungua\nLitaponyesha na kuwapa\namani.\nTwendeni upesi,\ntukawaokoe.\nUpesi! Twendeni haraka!"
+      }
+    ]
+  }

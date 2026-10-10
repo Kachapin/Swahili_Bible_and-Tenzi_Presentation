@@ -1,0 +1,32 @@
+ {
+    "number": 108,
+    "title": "Twenenda sayuni",
+    "chorus": "Twenenda Sayuni,\nMji mzuri Sayuni;\nTwenenda juu Sayuni\nNi maskani ya Mungu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mpendao Bwana\nIje raha yenu!\nImbeni nyimbo za raha\nWa ibada yenu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wasiimbe wao\nwasioamini,\nWatoto wa Mungu ndio\nwaimbao chini."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Twaona rohoni\nBaraka za Mungu,\nTusijafika Mbinguni\nKwenye utukufu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Tutakapo mwona\nMasumbuko basi,\nHuwa maji ya uzima,\nAnasa halisi."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Tupaaze sauti,\nNa fute machozi,\nTwenenda kwa Imanweli\nNaye ni Mwokozi."
+      }
+    ]
+  }

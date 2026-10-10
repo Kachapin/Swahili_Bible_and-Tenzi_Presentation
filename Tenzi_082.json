@@ -1,0 +1,27 @@
+{
+    "number": 82,
+    "title": "Sioni haya kwa Bwana",
+    "chorus": "Msalaba ndio asili ya\nmema,\nNikatua mzigo hapo;\nNina uzima, furaha daima,\nNjoni kafurahini papo.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Sioni haya kwa Bwana\nKwake nitang’ara!\nMti wake sitakana,\nNi neno imara!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kama kiti chake vivyo\nNi yake ahadi,\nAlivyowekewa navyo\nKamwe havirudi."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Bwana wangu, tena Mungu\nNdilo lake jina!\nHataacha roho yangu\nWala kunikana."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Atakiri langu jina,\nMbele za Babaye,\nAnipe pahali tena\nMbinguni nikae."
+      }
+    ]
+  }

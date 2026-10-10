@@ -1,0 +1,37 @@
+{
+    "number": 49,
+    "title": "Nitwae hivi nilivyo",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nitwae hivi nilivyo,\nUmemwaga damu yako,\nNawe ulivyoniita,\nBwana Yesu,naja,naja."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Hivi nilivyo;si langu\nKujiosha roho yangu;\nNisamehe dhambi zangu,\nBwana Yesu,naja,naja."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Hivi nilivyo; sioni\nKamwe furaha moyoni;\nDaima ni mashakani,\nBwana Yesu,naja,naja."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Hivi nilivyo kipofu,\nmaskini na mpungufu;\nWewe u mtimilifu;\nBwana Yesu,naja,naja."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Nawe hivi utanitwaa;\nNisithubutu kukawa,\nNa wewe hutanikataa,\nBwana Yesu,naja,naja."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Hivi nilivyo;mapenzi\nYamenipa njia wazi;\nHali na mali sisazi,\nBwana Yesu,naja,naja."
+      }
+    ]
+  }
+ 

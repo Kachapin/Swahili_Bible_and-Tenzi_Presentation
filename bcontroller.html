@@ -1,0 +1,2997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bible Controller</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 16px;
+}
+
+h1 {
+    margin: 0 0 14px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.panel {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 12px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-size: 13px;
+    color: #cbd5e1;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    background: #0f172a;
+    color: #fff;
+    border: 1px solid #475569;
+    border-radius: 5px;
+    padding: 9px 10px;
+    font-size: 15px;
+    min-width: 190px;
+}
+
+select.chapter-select {
+    min-width: 100px;
+}
+
+button {
+    border: 1px solid #475569;
+    background: #334155;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.12s;
+}
+
+button:hover {
+    background: #475569;
+}
+
+button.active {
+    background: #2563eb;
+    border-color: #3b82f6;
+}
+
+button.red {
+    background: #991b1b;
+    border-color: #b91c1c;
+}
+
+button.red:hover {
+    background: #b91c1c;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.chapter-buttons,
+.verse-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.chapter-buttons button,
+.verse-buttons button {
+    min-width: 38px;
+    padding: 7px 8px;
+}
+
+.verse-buttons button.selected {
+    background: #2563eb;
+    border-color: #60a5fa;
+}
+
+.verse-buttons button.range-start,
+.verse-buttons button.range-end {
+    background: #059669;
+    border-color: #10b981;
+}
+
+.verse-list {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 10px;
+    border-top: 1px solid #334155;
+}
+
+.verse-item {
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    gap: 10px;
+    padding: 9px 6px;
+    border-bottom: 1px solid #334155;
+    cursor: pointer;
+}
+
+.verse-item:hover {
+    background: #273449;
+}
+
+.verse-item.selected {
+    background: #1d4ed8;
+}
+
+.verse-number {
+    font-weight: bold;
+    color: #93c5fd;
+}
+
+.verse-text {
+    line-height: 1.45;
+}
+
+.layout-buttons {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.setting label {
+    margin: 0;
+}
+
+.color-picker {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid #64748b;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 130px;
+}
+
+.preview {
+    background:
+        repeating-conic-gradient(#222 0% 25%, #333 0% 50%)
+        50% / 20px 20px;
+    border: 1px solid #475569;
+    min-height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.preview-bible {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.preview-reference {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.preview-text {
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.preview-text sup {
+    font-size: 0.55em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+.status {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.hint {
+    color: #94a3b8;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.selected-info {
+    color: #93c5fd;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Bible Controller</h1>
+
+
+<!-- BOOK / CHAPTER / DISPLAY / NAVIGATION -->
+
+<div class="panel">
+
+    <div class="row">
+
+        <div class="field">
+            <label for="bookSelect">Book</label>
+
+            <select id="bookSelect"></select>
+        </div>
+
+
+        <div class="field">
+            <label for="chapterSelect">Chapter</label>
+
+            <select id="chapterSelect"
+                    class="chapter-select"></select>
+        </div>
+
+
+        <div class="field">
+
+            <label>Display Layout</label>
+
+            <div class="layout-buttons">
+
+                <button
+                    id="fullBtn"
+                    onclick="setLayout('fullscreen')">
+                    FULL SCREEN 16:9
+                </button>
+
+                <button
+                    id="lowerBtn"
+                    onclick="setLayout('lowerthird')">
+                    LOWER THIRD
+                </button>
+
+                <button
+                    id="halfBtn"
+                    onclick="setLayout('half')">
+                    HALF SCREEN
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>Navigation</label>
+
+            <div class="navigation-buttons">
+
+                <button onclick="previousPage()">
+                    ← PREVIOUS
+                </button>
+
+                <button onclick="nextPage()">
+                    NEXT →
+                </button>
+
+                <button class="red"
+                        onclick="hideScreen()">
+                    HIDE SCREEN
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hint">
+
+        ← / → = one verse
+
+        &nbsp; | &nbsp;
+
+        ↑ / ↓ = verse groups
+
+        &nbsp; | &nbsp;
+
+        [ / ] = chapter
+
+        &nbsp; | &nbsp;
+
+        Shift-click = select a range
+
+    </div>
+
+</div>
+
+
+<!-- CHAPTERS -->
+
+<div class="panel">
+
+    <strong>Chapters</strong>
+
+    <div id="chapterButtons"
+         class="chapter-buttons"></div>
+
+</div>
+
+
+<!-- VERSES -->
+
+<div class="panel">
+
+    <strong>Verses</strong>
+
+    <div id="verseButtons"
+         class="verse-buttons"></div>
+
+    <div id="selectedInfo"
+         class="selected-info">
+        No verse selected
+    </div>
+
+</div>
+
+
+<!-- VERSE LIST -->
+
+<div class="panel">
+
+    <strong>Verse Text</strong>
+
+    <div id="verseList"
+         class="verse-list"></div>
+
+</div>
+
+
+<!-- SETTINGS -->
+
+<div class="panel">
+
+    <div class="row">
+
+        <div class="setting">
+
+            <label for="opacity">
+                Opacity
+            </label>
+
+            <input
+                type="range"
+                id="opacity"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.95">
+
+            <span id="opacityValue">
+                95%
+            </span>
+
+        </div>
+
+
+        <div class="setting">
+
+            <label for="fontColor">
+                Text
+            </label>
+
+            <input
+                type="color"
+                id="fontColor"
+                class="color-picker"
+                value="#ffffff">
+
+        </div>
+
+
+        <div class="setting">
+
+            <label for="bgColor">
+                Background
+            </label>
+
+            <input
+                type="color"
+                id="bgColor"
+                class="color-picker"
+                value="#0f172a">
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- PREVIEW -->
+
+<div class="panel">
+
+    <strong>Preview</strong>
+
+    <div class="preview">
+
+        <div id="previewBible"
+             class="preview-bible">
+
+            <div id="previewReference"
+                 class="preview-reference">
+                Mwanzo 1:1
+            </div>
+
+            <div id="previewText"
+                 class="preview-text">
+                Hapo mwanzo Mungu aliumba mbingu na nchi.
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- STATUS -->
+
+<div class="panel">
+
+    <div id="status"
+         class="status">
+        Ready
+    </div>
+
+</div>
+
+</div>
+
+
+<script>
+
+let bibleData = {};
+
+let currentBook = "";
+let currentChapter = 1;
+
+let currentLayout = "fullscreen";
+
+let selectedVerse = null;
+
+let rangeStart = null;
+let rangeEnd = null;
+
+
+/*
+    Automatically calculated pages.
+
+    Example:
+
+    Page 1 = 1–5
+    Page 2 = 6–10
+    Page 3 = 11–16
+*/
+
+let pages = [];
+
+let currentPage = 0;
+
+
+/*
+    What is currently displayed.
+
+    This may be:
+
+    [verse 5]
+
+    or
+
+    [verse 5, verse 6, verse 7]
+*/
+
+let displayedVerses = [];
+
+
+/* ==================================================
+   SETTINGS
+   ================================================== */
+
+const savedSettings =
+    JSON.parse(
+        localStorage.getItem("bibleSettings") || "{}"
+    );
+
+
+if (savedSettings.layout) {
+    currentLayout = savedSettings.layout;
+}
+
+if (savedSettings.opacity !== undefined) {
+    document.getElementById("opacity").value =
+        savedSettings.opacity;
+}
+
+if (savedSettings.fontColor) {
+    document.getElementById("fontColor").value =
+        savedSettings.fontColor;
+}
+
+if (savedSettings.bgColor) {
+    document.getElementById("bgColor").value =
+        savedSettings.bgColor;
+}
+
+
+/* ==================================================
+   LOAD BIBLE
+   ================================================== */
+
+fetch("/bible.json")
+.then(response => {
+
+    if (!response.ok) {
+        throw new Error(
+            "Could not load bible.json"
+        );
+    }
+
+    return response.json();
+
+})
+.then(data => {
+
+    /*
+     * New Bible JSON structure:
+     *
+     * {
+     *   "BIBLEBOOK": [
+     *      {
+     *          "book_number": "1",
+     *          "book_name": "Mwanzo",
+     *          "CHAPTER": [
+     *              {
+     *                  "chapter_number": "1",
+     *                  "VERSES": [
+     *                      {
+     *                          "verse_number": "1",
+     *                          "verse_text": "..."
+     *                      }
+     *                  ]
+     *              }
+     *          ]
+     *      }
+     *   ]
+     * }
+     */
+
+    bibleData = {};
+
+    if (
+        !data ||
+        !Array.isArray(data.BIBLEBOOK)
+    ) {
+        throw new Error(
+            "BIBLEBOOK array not found"
+        );
+    }
+
+
+    data.BIBLEBOOK.forEach(book => {
+
+        const bookName =
+            String(book.book_name || "").trim();
+
+        if (!bookName) {
+            return;
+        }
+
+        bibleData[bookName] = {};
+
+
+        if (!Array.isArray(book.CHAPTER)) {
+            return;
+        }
+
+
+        book.CHAPTER.forEach(chapter => {
+
+            const chapterNumber =
+                String(
+                    chapter.chapter_number || ""
+                ).trim();
+
+            if (!chapterNumber) {
+                return;
+            }
+
+
+            bibleData[bookName][chapterNumber] = {};
+
+
+            if (!Array.isArray(chapter.VERSES)) {
+                return;
+            }
+
+
+            chapter.VERSES.forEach(verse => {
+
+                const verseNumber =
+                    String(
+                        verse.verse_number || ""
+                    ).trim();
+
+                if (!verseNumber) {
+                    return;
+                }
+
+
+                bibleData[bookName][chapterNumber][
+                    verseNumber
+                ] =
+                    String(
+                        verse.verse_text || ""
+                    ).trim();
+
+            });
+
+        });
+
+    });
+
+
+    console.log(
+        "Bible loaded:",
+        Object.keys(bibleData)
+    );
+
+    populateBooks();
+
+})
+.catch(error => {
+
+    console.error(
+        "Bible loading error:",
+        error
+    );
+
+    setStatus(
+        "ERROR: " + error.message
+    );
+
+});
+
+
+/* ==================================================
+   BOOKS
+   ================================================== */
+
+function populateBooks() {
+
+    const select =
+        document.getElementById(
+            "bookSelect"
+        );
+
+    select.innerHTML = "";
+
+
+    Object.keys(bibleData)
+    .forEach(book => {
+
+        const option =
+            document.createElement(
+                "option"
+            );
+
+        option.value = book;
+
+        option.textContent = book;
+
+        select.appendChild(option);
+
+    });
+
+
+    const books =
+        Object.keys(bibleData);
+
+
+    if (!books.length) {
+        return;
+    }
+
+
+    currentBook =
+        books[0];
+
+    select.value =
+        currentBook;
+
+    populateChapters();
+
+}
+
+
+/* ==================================================
+   CHAPTERS
+   ================================================== */
+
+function populateChapters() {
+
+    const select =
+        document.getElementById(
+            "chapterSelect"
+        );
+
+    select.innerHTML = "";
+
+
+    const chapters =
+        Object.keys(
+            bibleData[currentBook] || {}
+        );
+
+
+    chapters.forEach(chapter => {
+
+        const option =
+            document.createElement(
+                "option"
+            );
+
+        option.value =
+            chapter;
+
+        option.textContent =
+            chapter;
+
+        select.appendChild(option);
+
+    });
+
+
+    if (!chapters.length) {
+        return;
+    }
+
+
+    currentChapter =
+        parseInt(chapters[0]);
+
+    select.value =
+        currentChapter;
+
+
+    populateChapterButtons();
+
+    loadChapter();
+
+}
+
+
+/* ==================================================
+   CHAPTER BUTTONS
+   ================================================== */
+
+function populateChapterButtons() {
+
+    const container =
+        document.getElementById(
+            "chapterButtons"
+        );
+
+    container.innerHTML = "";
+
+
+    const chapters =
+        Object.keys(
+            bibleData[currentBook] || {}
+        );
+
+
+    chapters.forEach(chapter => {
+
+        const button =
+            document.createElement(
+                "button"
+            );
+
+        button.textContent =
+            chapter;
+
+
+        if (
+            parseInt(chapter) ===
+            currentChapter
+        ) {
+
+            button.classList.add(
+                "active"
+            );
+
+        }
+
+
+        button.onclick = () => {
+
+            currentChapter =
+                parseInt(chapter);
+
+            document.getElementById(
+                "chapterSelect"
+            ).value =
+                currentChapter;
+
+            loadChapter();
+
+        };
+
+
+        container.appendChild(
+            button
+        );
+
+    });
+
+}
+
+
+/* ==================================================
+   BOOK CHANGE
+   ================================================== */
+
+document
+.getElementById("bookSelect")
+.addEventListener(
+    "change",
+    function() {
+
+        currentBook =
+            this.value;
+
+        populateChapters();
+
+    }
+);
+
+
+/* ==================================================
+   CHAPTER CHANGE
+   ================================================== */
+
+document
+.getElementById("chapterSelect")
+.addEventListener(
+    "change",
+    function() {
+
+        currentChapter =
+            parseInt(this.value);
+
+        loadChapter();
+
+    }
+);
+
+
+/* ==================================================
+   LOAD CHAPTER
+   ================================================== */
+
+function loadChapter() {
+
+    selectedVerse = null;
+
+    rangeStart = null;
+    rangeEnd = null;
+
+    currentPage = 0;
+
+    displayedVerses = [];
+
+
+    const chapter =
+        bibleData[currentBook]?.[
+            currentChapter
+        ];
+
+
+    if (!chapter) {
+        return;
+    }
+
+
+    populateChapterButtons();
+
+    populateVerseButtons();
+
+    populateVerseList();
+
+    buildPages();
+
+    updateSelectedInfo();
+
+    updatePreview();
+
+
+    setStatus(
+        `${currentBook} ${currentChapter} loaded`
+    );
+
+}
+
+
+/* ==================================================
+   VERSE BUTTONS
+   ================================================== */
+
+function populateVerseButtons() {
+
+    const container =
+        document.getElementById(
+            "verseButtons"
+        );
+
+    container.innerHTML = "";
+
+
+    const chapter =
+        bibleData[currentBook]?.[
+            currentChapter
+        ];
+
+
+    if (!chapter) {
+        return;
+    }
+
+
+    Object.keys(chapter)
+    .sort(
+        (a,b) =>
+            parseInt(a) -
+            parseInt(b)
+    )
+    .forEach(verse => {
+
+        const button =
+            document.createElement(
+                "button"
+            );
+
+        button.textContent =
+            verse;
+
+        button.dataset.verse =
+            verse;
+
+
+        button.onclick =
+            function(event) {
+
+                selectVerse(
+                    parseInt(verse),
+                    event.shiftKey
+                );
+
+            };
+
+
+        container.appendChild(
+            button
+        );
+
+    });
+
+}
+
+
+/* ==================================================
+   VERSE LIST
+   ================================================== */
+
+function populateVerseList() {
+
+    const container =
+        document.getElementById(
+            "verseList"
+        );
+
+    container.innerHTML = "";
+
+
+    const chapter =
+        bibleData[currentBook]?.[
+            currentChapter
+        ];
+
+
+    if (!chapter) {
+        return;
+    }
+
+
+    Object.keys(chapter)
+    .sort(
+        (a,b) =>
+            parseInt(a) -
+            parseInt(b)
+    )
+    .forEach(verse => {
+
+        const item =
+            document.createElement(
+                "div"
+            );
+
+        item.className =
+            "verse-item";
+
+        item.dataset.verse =
+            verse;
+
+
+        const number =
+            document.createElement(
+                "div"
+            );
+
+        number.className =
+            "verse-number";
+
+        number.textContent =
+            verse;
+
+
+        const text =
+            document.createElement(
+                "div"
+            );
+
+        text.className =
+            "verse-text";
+
+        text.textContent =
+            chapter[verse];
+
+
+        item.appendChild(number);
+
+        item.appendChild(text);
+
+
+        item.onclick =
+            function(event) {
+
+                selectVerse(
+                    parseInt(verse),
+                    event.shiftKey
+                );
+
+            };
+
+
+        container.appendChild(
+            item
+        );
+
+    });
+
+}
+
+
+/* ==================================================
+   SELECT VERSE
+   ================================================== */
+
+function selectVerse(
+    verse,
+    shiftKey = false
+) {
+
+    /*
+       SHIFT CLICK = explicit range
+    */
+
+    if (
+        shiftKey &&
+        rangeStart !== null
+    ) {
+
+        rangeEnd =
+            verse;
+
+
+        const start =
+            Math.min(
+                rangeStart,
+                rangeEnd
+            );
+
+        const end =
+            Math.max(
+                rangeStart,
+                rangeEnd
+            );
+
+
+        const verses =
+            makeVerseArray(
+                start,
+                end
+            );
+
+
+        selectedVerse =
+            start;
+
+        rangeStart =
+            start;
+
+        rangeEnd =
+            end;
+
+
+        /*
+           Explicit ranges are displayed
+           exactly as selected.
+
+           They are NOT replaced by
+           automatic pagination.
+        */
+
+        displayedVerses =
+            verses;
+
+
+        sendVerses(
+            displayedVerses
+        );
+
+
+        updatePreview(
+            displayedVerses
+        );
+
+
+        highlightVerses(
+            start,
+            end
+        );
+
+
+        updateSelectedInfo();
+
+
+        findCurrentPage();
+
+
+        setStatus(
+            makeReference(
+                displayedVerses
+            )
+        );
+
+
+        return;
+    }
+
+
+    /*
+       NORMAL CLICK = EXACTLY ONE VERSE
+    */
+
+    rangeStart =
+        verse;
+
+    rangeEnd =
+        verse;
+
+    selectedVerse =
+        verse;
+
+
+    displayedVerses =
+        makeVerseArray(
+            verse,
+            verse
+        );
+
+
+    sendVerses(
+        displayedVerses
+    );
+
+
+    updatePreview(
+        displayedVerses
+    );
+
+
+    highlightVerses(
+        verse,
+        verse
+    );
+
+
+    updateSelectedInfo();
+
+
+    findCurrentPage();
+
+
+    setStatus(
+        makeReference(
+            displayedVerses
+        )
+    );
+
+}
+
+
+/* ==================================================
+   MAKE VERSE ARRAY
+   ================================================== */
+
+function makeVerseArray(
+    start,
+    end
+) {
+
+    const chapter =
+        bibleData[currentBook]?.[
+            currentChapter
+        ];
+
+
+    if (!chapter) {
+        return [];
+    }
+
+
+    const verses = [];
+
+
+    for (
+        let i = start;
+        i <= end;
+        i++
+    ) {
+
+        if (
+            chapter[i] !== undefined
+        ) {
+
+            verses.push({
+
+                verse: i,
+
+                text:
+                    chapter[i]
+
+            });
+
+        }
+
+    }
+
+
+    return verses;
+
+}
+
+
+/* ==================================================
+   BUILD PAGES
+   ==================================================
+
+   Pagination is measured using an actual
+   browser DOM element with the same dimensions,
+   fonts, spacing and verse structure as the
+   display.
+
+   This avoids the previous approximate
+   character-count calculation.
+
+   FULL SCREEN:
+       left 10%
+       top 10%
+       width 80%
+       height 80%
+
+   HALF SCREEN:
+       left 52%
+       top 10%
+       width 40%
+       height 80%
+
+   A verse is only added to a page if the
+   complete rendered group still fits.
+   ================================================== */
+
+function buildPages() {
+
+    pages = [];
+
+
+    const chapter =
+        bibleData[currentBook]?.[
+            currentChapter
+        ];
+
+
+    if (!chapter) {
+        return;
+    }
+
+
+    /*
+       Lower third does not use automatic
+       verse batching.
+    */
+
+    if (
+        currentLayout ===
+        "lowerthird"
+    ) {
+
+        Object.keys(chapter)
+        .map(v => parseInt(v))
+        .sort((a,b) => a-b)
+        .forEach(verse => {
+
+            pages.push([
+                verse
+            ]);
+
+        });
+
+        return;
+    }
+
+
+    /*
+       Reference canvas:
+       1920 × 1080
+    */
+
+    const canvasWidth =
+        1920;
+
+    const canvasHeight =
+        1080;
+
+
+    let width;
+    let boxHeight;
+    let fontSize;
+    let referenceFontSize;
+
+
+    if (
+        currentLayout ===
+        "half"
+    ) {
+
+        width =
+            canvasWidth * 0.40;
+
+        boxHeight =
+            canvasHeight * 0.80;
+
+        fontSize =
+            38;
+
+        referenceFontSize =
+            34;
+
+    }
+
+    else {
+
+        width =
+            canvasWidth * 0.80;
+
+        boxHeight =
+            canvasHeight * 0.80;
+
+        fontSize =
+            52;
+
+        referenceFontSize =
+            45;
+
+    }
+
+
+    /*
+       Create a hidden measurement element.
+
+       It is intentionally kept in the document
+       rather than using display:none so that the
+       browser calculates real line wrapping.
+    */
+
+    const measure =
+        document.createElement("div");
+
+
+    measure.style.position =
+        "fixed";
+
+    measure.style.left =
+        "-10000px";
+
+    measure.style.top =
+        "0";
+
+    measure.style.width =
+        `${width}px`;
+
+    measure.style.height =
+        `${boxHeight}px`;
+
+    measure.style.boxSizing =
+        "border-box";
+
+    measure.style.padding =
+        "12px 18px";
+
+    measure.style.overflow =
+        "hidden";
+
+    measure.style.visibility =
+        "hidden";
+
+    measure.style.pointerEvents =
+        "none";
+
+    measure.style.fontFamily =
+        "Arial, Helvetica, sans-serif";
+
+    measure.style.color =
+        "#ffffff";
+
+    measure.style.background =
+        "transparent";
+
+
+    document.body.appendChild(
+        measure
+    );
+
+
+    /*
+       Reference.
+    */
+
+    const reference =
+        document.createElement("div");
+
+    reference.style.fontWeight =
+        "bold";
+
+    reference.style.lineHeight =
+        "1.2";
+
+    reference.style.marginBottom =
+        "14px";
+
+    reference.style.fontSize =
+        `${referenceFontSize}px`;
+
+    reference.style.textShadow =
+        "0 2px 4px rgba(0,0,0,0.7)";
+
+
+    /*
+       Text.
+    */
+
+    const text =
+        document.createElement("div");
+
+    text.style.fontSize =
+        `${fontSize}px`;
+
+    text.style.lineHeight =
+        "1.4";
+
+    text.style.whiteSpace =
+        "normal";
+
+    text.style.textShadow =
+        "0 2px 4px rgba(0,0,0,0.7)";
+
+
+    measure.appendChild(
+        reference
+    );
+
+    measure.appendChild(
+        text
+    );
+
+
+    /*
+       Verse numbers need the same styling
+       as bdisplay.html.
+    */
+
+    const verseHTML =
+        verses => {
+
+            return verses
+                .map(v => {
+
+                    return `
+                        <span class="verse">
+                            <sup style="
+                                font-size:0.55em;
+                                font-weight:bold;
+                                vertical-align:super;
+                                line-height:0;
+                                margin-right:5px;
+                            ">${escapeHTML(v.verse)}</sup>
+                            ${escapeHTML(v.text)}
+                        </span>
+                    `;
+
+                })
+                .join("<br><br>");
+
+        };
+
+
+    const verseNumbers =
+        Object.keys(chapter)
+        .map(v => parseInt(v))
+        .sort((a,b) => a-b);
+
+
+    let page = [];
+
+
+    /*
+       Test whether a candidate page actually
+       fits inside the display box.
+    */
+
+    function fits(candidate) {
+
+        const verses =
+            candidate.map(
+                verse => ({
+                    verse: verse,
+                    text: chapter[verse]
+                })
+            );
+
+
+        reference.textContent =
+            makeReference(
+                verses
+            );
+
+
+        text.innerHTML =
+            verseHTML(
+                verses
+            );
+
+
+        /*
+           scrollHeight represents the actual
+           rendered content height.
+
+           clientHeight is the available
+           content area inside the measurement
+           box.
+        */
+
+        return (
+            measure.scrollHeight <=
+            measure.clientHeight + 1
+        );
+
+    }
+
+
+    /*
+       Build pages one verse at a time.
+
+       If adding a verse causes overflow,
+       the previous complete group becomes
+       the page and the new verse starts the
+       next page.
+    */
+
+    verseNumbers.forEach(verse => {
+
+        const candidate =
+            page.concat(verse);
+
+
+        if (
+            page.length > 0 &&
+            !fits(candidate)
+        ) {
+
+            pages.push(
+                page
+            );
+
+            page = [
+                verse
+            ];
+
+        }
+
+        else {
+
+            page =
+                candidate;
+
+        }
+
+    });
+
+
+    if (page.length > 0) {
+
+        pages.push(
+            page
+        );
+
+    }
+
+
+    /*
+       Clean up measurement element.
+    */
+
+    measure.remove();
+
+}
+
+
+/* ==================================================
+   FIND CURRENT PAGE
+   ================================================== */
+
+function findCurrentPage() {
+
+    if (
+        !displayedVerses.length ||
+        !pages.length
+    ) {
+        return;
+    }
+
+
+    const firstVerse =
+        displayedVerses[0].verse;
+
+
+    const index =
+        pages.findIndex(
+            page =>
+                page.includes(
+                    firstVerse
+                )
+        );
+
+
+    if (index >= 0) {
+
+        currentPage =
+            index;
+
+    }
+
+}
+
+
+/* ==================================================
+   SHOW PAGE
+   ================================================== */
+
+function displayPage() {
+
+    if (
+        !pages.length
+    ) {
+        return;
+    }
+
+
+    const page =
+        pages[currentPage];
+
+
+    if (
+        !page ||
+        page.length === 0
+    ) {
+        return;
+    }
+
+
+    const verses =
+        makeVerseArray(
+            page[0],
+            page[page.length - 1]
+        );
+
+
+    rangeStart =
+        page[0];
+
+    rangeEnd =
+        page[page.length - 1];
+
+    selectedVerse =
+        page[0];
+
+
+    displayedVerses =
+        verses;
+
+
+    sendVerses(
+        displayedVerses
+    );
+
+
+    updatePreview(
+        displayedVerses
+    );
+
+
+    highlightVerses(
+        page[0],
+        page[page.length - 1]
+    );
+
+
+    updateSelectedInfo();
+
+
+    setStatus(
+        `${makeReference(verses)} | Page ${currentPage + 1}/${pages.length}`
+    );
+
+}
+
+
+/* ==================================================
+   ONE VERSE LEFT / RIGHT
+   ==================================================
+
+   LEFT and RIGHT ALWAYS move exactly
+   one verse.
+   ================================================== */
+
+function moveOneVerse(direction) {
+
+    const chapter =
+        bibleData[currentBook]?.[
+            currentChapter
+        ];
+
+
+    if (!chapter) {
+        return;
+    }
+
+
+    const verseNumbers =
+        Object.keys(chapter)
+        .map(v => parseInt(v))
+        .sort((a,b) => a-b);
+
+
+    /*
+       Use the first currently displayed
+       verse as the navigation position.
+    */
+
+    let current =
+        displayedVerses.length
+            ? displayedVerses[0].verse
+            : selectedVerse;
+
+
+    if (
+        current === null ||
+        current === undefined
+    ) {
+
+        current =
+            verseNumbers[0];
+
+    }
+
+
+    const index =
+        verseNumbers.indexOf(
+            parseInt(current)
+        );
+
+
+    if (index === -1) {
+        return;
+    }
+
+
+    const newIndex =
+        index + direction;
+
+
+    if (
+        newIndex < 0 ||
+        newIndex >=
+            verseNumbers.length
+    ) {
+
+        return;
+
+    }
+
+
+    const verse =
+        verseNumbers[newIndex];
+
+
+    rangeStart =
+        verse;
+
+    rangeEnd =
+        verse;
+
+    selectedVerse =
+        verse;
+
+
+    displayedVerses =
+        makeVerseArray(
+            verse,
+            verse
+        );
+
+
+    sendVerses(
+        displayedVerses
+    );
+
+
+    updatePreview(
+        displayedVerses
+    );
+
+
+    highlightVerses(
+        verse,
+        verse
+    );
+
+
+    updateSelectedInfo();
+
+
+    findCurrentPage();
+
+
+    setStatus(
+        makeReference(
+            displayedVerses
+        )
+    );
+
+}
+
+
+/* ==================================================
+   PREVIOUS PAGE / BATCH
+   ================================================== */
+
+function previousPage() {
+
+    /*
+       Lower third keeps its one-verse
+       behaviour.
+    */
+
+    if (
+        currentLayout ===
+        "lowerthird"
+    ) {
+
+        moveOneVerse(-1);
+
+        return;
+    }
+
+
+    findCurrentPage();
+
+
+    if (
+        currentPage > 0
+    ) {
+
+        currentPage--;
+
+        displayPage();
+
+    }
+
+}
+
+
+/* ==================================================
+   NEXT PAGE / BATCH
+   ================================================== */
+
+function nextPage() {
+
+    if (
+        currentLayout ===
+        "lowerthird"
+    ) {
+
+        moveOneVerse(1);
+
+        return;
+    }
+
+
+    findCurrentPage();
+
+
+    if (
+        currentPage <
+        pages.length - 1
+    ) {
+
+        currentPage++;
+
+        displayPage();
+
+    }
+
+}
+
+
+/* ==================================================
+   LAYOUT
+   ================================================== */
+
+function setLayout(layout) {
+
+    currentLayout =
+        layout;
+
+
+    saveSettings();
+
+
+    document
+    .querySelectorAll(
+        ".layout-buttons button"
+    )
+    .forEach(button => {
+
+        button.classList.remove(
+            "active"
+        );
+
+    });
+
+
+    if (
+        layout ===
+        "fullscreen"
+    ) {
+
+        document
+        .getElementById("fullBtn")
+        .classList.add("active");
+
+    }
+
+
+    if (
+        layout ===
+        "lowerthird"
+    ) {
+
+        document
+        .getElementById("lowerBtn")
+        .classList.add("active");
+
+    }
+
+
+    if (
+        layout ===
+        "half"
+    ) {
+
+        document
+        .getElementById("halfBtn")
+        .classList.add("active");
+
+    }
+
+
+    /*
+       Recalculate pages because the
+       available width changes.
+    */
+
+    buildPages();
+
+
+    /*
+       Preserve the current displayed
+       verses.
+    */
+
+    if (
+        displayedVerses.length > 0
+    ) {
+
+        findCurrentPage();
+
+
+        sendVerses(
+            displayedVerses
+        );
+
+
+        updatePreview(
+            displayedVerses
+        );
+
+    }
+
+
+    setStatus(
+        `Layout: ${layout}`
+    );
+
+}
+
+
+/* ==================================================
+   SEND
+   ================================================== */
+
+function sendVerses(verses) {
+
+    if (
+        !verses ||
+        !verses.length
+    ) {
+        return;
+    }
+
+
+    const payload = {
+
+        action:
+            "bible",
+
+        book:
+            currentBook,
+
+        chapter:
+            currentChapter,
+
+        verse:
+            verses[0].verse,
+
+        reference:
+            makeReference(
+                verses
+            ),
+
+        text:
+            verses
+            .map(v => v.text)
+            .join("\n"),
+
+        verses:
+            verses,
+
+        layout:
+            currentLayout,
+
+        opacity:
+            parseFloat(
+                document.getElementById(
+                    "opacity"
+                ).value
+            ),
+
+        fontColor:
+            document.getElementById(
+                "fontColor"
+            ).value,
+
+        bgColor:
+            document.getElementById(
+                "bgColor"
+            ).value,
+
+        timestamp:
+            Date.now()
+
+    };
+
+
+    fetch(
+        "/api/update",
+        {
+
+            method:
+                "POST",
+
+            headers: {
+                "Content-Type":
+                    "application/json"
+            },
+
+            body:
+                JSON.stringify(
+                    payload
+                )
+
+        }
+    )
+    .then(response => {
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Server rejected update"
+            );
+
+        }
+
+    })
+    .catch(error => {
+
+        console.error(error);
+
+        setStatus(
+            "ERROR: Could not send to display"
+        );
+
+    });
+
+}
+
+
+/* ==================================================
+   REFERENCE
+   ================================================== */
+
+function makeReference(verses) {
+
+    if (
+        !verses ||
+        !verses.length
+    ) {
+        return "";
+    }
+
+
+    const first =
+        verses[0].verse;
+
+    const last =
+        verses[verses.length - 1].verse;
+
+
+    if (
+        first === last
+    ) {
+
+        return `${currentBook} ${currentChapter}:${first}`;
+
+    }
+
+
+    return `${currentBook} ${currentChapter}:${first}–${last}`;
+
+}
+
+
+/* ==================================================
+   HIGHLIGHT
+   ================================================== */
+
+function highlightVerses(
+    start,
+    end
+) {
+
+    document
+    .querySelectorAll(
+        ".verse-buttons button"
+    )
+    .forEach(button => {
+
+        const verse =
+            parseInt(
+                button.dataset.verse
+            );
+
+
+        button.classList.remove(
+            "selected",
+            "range-start",
+            "range-end"
+        );
+
+
+        if (
+            verse >= start &&
+            verse <= end
+        ) {
+
+            button.classList.add(
+                "selected"
+            );
+
+        }
+
+
+        if (
+            verse === start
+        ) {
+
+            button.classList.add(
+                "range-start"
+            );
+
+        }
+
+
+        if (
+            verse === end
+        ) {
+
+            button.classList.add(
+                "range-end"
+            );
+
+        }
+
+    });
+
+
+    document
+    .querySelectorAll(
+        ".verse-item"
+    )
+    .forEach(item => {
+
+        const verse =
+            parseInt(
+                item.dataset.verse
+            );
+
+
+        item.classList.toggle(
+            "selected",
+            verse >= start &&
+            verse <= end
+        );
+
+    });
+
+}
+
+
+/* ==================================================
+   SELECTED INFO
+   ================================================== */
+
+function updateSelectedInfo() {
+
+    const info =
+        document.getElementById(
+            "selectedInfo"
+        );
+
+
+    if (
+        rangeStart === null
+    ) {
+
+        info.textContent =
+            "No verse selected";
+
+        return;
+
+    }
+
+
+    if (
+        rangeStart ===
+        rangeEnd
+    ) {
+
+        info.textContent =
+            `Selected: ${currentBook} ${currentChapter}:${rangeStart}`;
+
+        return;
+
+    }
+
+
+    const start =
+        Math.min(
+            rangeStart,
+            rangeEnd
+        );
+
+    const end =
+        Math.max(
+            rangeStart,
+            rangeEnd
+        );
+
+
+    info.textContent =
+        `Selected: ${currentBook} ${currentChapter}:${start}–${end}`;
+
+}
+
+
+/* ==================================================
+   PREVIEW
+   ================================================== */
+
+function updatePreview(
+    verses = displayedVerses
+) {
+
+    if (
+        !verses ||
+        !verses.length
+    ) {
+        return;
+    }
+
+
+    const previewBible =
+        document.getElementById(
+            "previewBible"
+        );
+
+
+    document.getElementById(
+        "previewReference"
+    ).textContent =
+        makeReference(
+            verses
+        );
+
+
+    document.getElementById(
+        "previewText"
+    ).innerHTML =
+        verses
+        .map(v =>
+            `<sup>${escapeHTML(v.verse)}</sup> ${escapeHTML(v.text)}`
+        )
+        .join("<br><br>");
+
+
+    previewBible.style.color =
+        document.getElementById(
+            "fontColor"
+        ).value;
+
+
+    previewBible.style.backgroundColor =
+        document.getElementById(
+            "bgColor"
+        ).value;
+
+
+    previewBible.style.opacity =
+        document.getElementById(
+            "opacity"
+        ).value;
+
+
+    if (
+        currentLayout ===
+        "fullscreen"
+    ) {
+
+        previewBible.style.left =
+            "10%";
+
+        previewBible.style.top =
+            "10%";
+
+        previewBible.style.width =
+            "80%";
+
+        previewBible.style.height =
+            "80%";
+
+        previewBible.style.textAlign =
+            "center";
+
+        previewBible.style.bottom =
+            "auto";
+
+    }
+
+    else if (
+        currentLayout ===
+        "half"
+    ) {
+
+        previewBible.style.left =
+            "52%";
+
+        previewBible.style.top =
+            "10%";
+
+        previewBible.style.width =
+            "40%";
+
+        previewBible.style.height =
+            "80%";
+
+        previewBible.style.textAlign =
+            "left";
+
+        previewBible.style.bottom =
+            "auto";
+
+    }
+
+    else {
+
+        previewBible.style.left =
+            "5%";
+
+        previewBible.style.bottom =
+            "9%";
+
+        previewBible.style.top =
+            "auto";
+
+        previewBible.style.width =
+            "90%";
+
+        previewBible.style.height =
+            "auto";
+
+        previewBible.style.textAlign =
+            "left";
+
+    }
+
+}
+
+
+/* ==================================================
+   SETTINGS
+   ================================================== */
+
+document
+.getElementById("opacity")
+.addEventListener(
+    "input",
+    function() {
+
+        document.getElementById(
+            "opacityValue"
+        ).textContent =
+            Math.round(
+                parseFloat(
+                    this.value
+                ) * 100
+            ) + "%";
+
+
+        saveSettings();
+
+
+        if (
+            displayedVerses.length
+        ) {
+
+            sendVerses(
+                displayedVerses
+            );
+
+        }
+
+
+        updatePreview();
+
+    }
+);
+
+
+document
+.getElementById("fontColor")
+.addEventListener(
+    "input",
+    function() {
+
+        saveSettings();
+
+
+        if (
+            displayedVerses.length
+        ) {
+
+            sendVerses(
+                displayedVerses
+            );
+
+        }
+
+
+        updatePreview();
+
+    }
+);
+
+
+document
+.getElementById("bgColor")
+.addEventListener(
+    "input",
+    function() {
+
+        saveSettings();
+
+
+        if (
+            displayedVerses.length
+        ) {
+
+            sendVerses(
+                displayedVerses
+            );
+
+        }
+
+
+        updatePreview();
+
+    }
+);
+
+
+function saveSettings() {
+
+    localStorage.setItem(
+        "bibleSettings",
+        JSON.stringify({
+
+            layout:
+                currentLayout,
+
+            opacity:
+                document.getElementById(
+                    "opacity"
+                ).value,
+
+            fontColor:
+                document.getElementById(
+                    "fontColor"
+                ).value,
+
+            bgColor:
+                document.getElementById(
+                    "bgColor"
+                ).value
+
+        })
+    );
+
+}
+
+
+/* ==================================================
+   KEYBOARD
+   ==================================================
+
+   ← / →  = ONE VERSE
+   ↑ / ↓  = ONE PAGE / VERSE GROUP
+   [ / ]  = CHAPTER
+   */
+
+document.addEventListener(
+    "keydown",
+    function(event) {
+
+        const tag =
+            document.activeElement?.tagName;
+
+
+        if (
+            tag === "INPUT" ||
+            tag === "SELECT" ||
+            tag === "TEXTAREA"
+        ) {
+
+            return;
+
+        }
+
+
+        /*
+           ONE VERSE
+        */
+
+        if (
+            event.key ===
+            "ArrowLeft"
+        ) {
+
+            event.preventDefault();
+
+            moveOneVerse(-1);
+
+            return;
+
+        }
+
+
+        if (
+            event.key ===
+            "ArrowRight"
+        ) {
+
+            event.preventDefault();
+
+            moveOneVerse(1);
+
+            return;
+
+        }
+
+
+        /*
+           PREVIOUS BATCH
+        */
+
+        if (
+            event.key ===
+            "ArrowUp"
+        ) {
+
+            event.preventDefault();
+
+            previousPage();
+
+            return;
+
+        }
+
+
+        /*
+           NEXT BATCH
+        */
+
+        if (
+            event.key ===
+            "ArrowDown"
+        ) {
+
+            event.preventDefault();
+
+            nextPage();
+
+            return;
+
+        }
+
+
+        /*
+           PREVIOUS CHAPTER
+        */
+
+        if (
+            event.key ===
+            "["
+        ) {
+
+            event.preventDefault();
+
+            previousChapter();
+
+            return;
+
+        }
+
+
+        /*
+           NEXT CHAPTER
+        */
+
+        if (
+            event.key ===
+            "]"
+        ) {
+
+            event.preventDefault();
+
+            nextChapter();
+
+            return;
+
+        }
+
+    }
+);
+
+
+/* ==================================================
+   CHAPTER NAVIGATION
+   ================================================== */
+
+function previousChapter() {
+
+    const chapters =
+        Object.keys(
+            bibleData[currentBook] || {}
+        )
+        .map(c => parseInt(c))
+        .sort(
+            (a,b) => a-b
+        );
+
+
+    const index =
+        chapters.indexOf(
+            currentChapter
+        );
+
+
+    if (
+        index > 0
+    ) {
+
+        currentChapter =
+            chapters[index - 1];
+
+
+        document.getElementById(
+            "chapterSelect"
+        ).value =
+            currentChapter;
+
+
+        loadChapter();
+
+    }
+
+}
+
+
+function nextChapter() {
+
+    const chapters =
+        Object.keys(
+            bibleData[currentBook] || {}
+        )
+        .map(c => parseInt(c))
+        .sort(
+            (a,b) => a-b
+        );
+
+
+    const index =
+        chapters.indexOf(
+            currentChapter
+        );
+
+
+    if (
+        index >= 0 &&
+        index <
+            chapters.length - 1
+    ) {
+
+        currentChapter =
+            chapters[index + 1];
+
+
+        document.getElementById(
+            "chapterSelect"
+        ).value =
+            currentChapter;
+
+
+        loadChapter();
+
+    }
+
+}
+
+
+/* ==================================================
+   HIDE
+   ================================================== */
+
+function hideScreen() {
+
+    fetch(
+        "/api/update",
+        {
+
+            method:
+                "POST",
+
+            headers: {
+                "Content-Type":
+                    "application/json"
+            },
+
+            body:
+                JSON.stringify({
+
+                    action:
+                        "hide",
+
+                    timestamp:
+                        Date.now()
+
+                })
+
+        }
+    )
+    .then(() => {
+
+        setStatus(
+            "Screen hidden"
+        );
+
+    })
+    .catch(error => {
+
+        console.error(error);
+
+        setStatus(
+            "ERROR: Could not hide screen"
+        );
+
+    });
+
+}
+
+
+/* ==================================================
+   STATUS
+   ================================================== */
+
+function setStatus(message) {
+
+    document.getElementById(
+        "status"
+    ).textContent =
+        message;
+
+}
+
+
+/* ==================================================
+   ESCAPE HTML
+   ================================================== */
+
+function escapeHTML(text) {
+
+    const div =
+        document.createElement(
+            "div"
+        );
+
+    div.textContent =
+        text == null
+            ? ""
+            : String(text);
+
+    return div.innerHTML;
+
+}
+
+
+/* ==================================================
+   INITIALISE
+   ================================================== */
+
+setTimeout(() => {
+
+    setLayout(
+        currentLayout
+    );
+
+
+    document.getElementById(
+        "opacityValue"
+    ).textContent =
+        Math.round(
+            parseFloat(
+                document.getElementById(
+                    "opacity"
+                ).value
+            ) * 100
+        ) + "%";
+
+}, 100);
+
+</script>
+
+</body>
+</html>

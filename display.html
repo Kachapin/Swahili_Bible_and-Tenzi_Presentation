@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tenzi Display</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+
+      font-family:
+        'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+      /*
+       * IMPORTANT FOR OBS:
+       * Keep the page itself transparent.
+       */
+      background: transparent;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #hymn-card {
+      width: 90vw;
+      max-width: 1400px;
+
+      height: 85vh;
+      max-height: 900px;
+
+      /*
+       * Default V1 card appearance.
+       * Controller can override this.
+       */
+      background: rgba(15, 23, 42, 0.95);
+
+      border-left: 20px solid #2563eb;
+      border-radius: 26px;
+
+      padding: 50px 80px;
+
+      color: #ffffff;
+
+      box-shadow:
+        0 18px 55px rgba(0,0,0,0.78);
+
+      display: none;
+
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      text-align: center;
+
+      overflow: hidden;
+
+      z-index: 10;
+    }
+
+    #hymn-card.active {
+      display: flex !important;
+    }
+
+    .header {
+      font-size:
+        clamp(26px, 2.5vw, 38px);
+
+      font-weight: 700;
+
+      color: #60a5fa;
+
+      text-transform: uppercase;
+
+      margin-bottom: 10px;
+
+      width: 100%;
+
+      flex-shrink: 0;
+    }
+
+    .content-wrapper {
+      flex: 1;
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+
+      overflow: hidden;
+    }
+
+    .content {
+      font-weight: 600;
+
+      line-height: 1.4;
+
+      color: #ffffff;
+
+      white-space: pre-line;
+
+      word-break: break-word;
+
+      width: 100%;
+
+      text-align: center;
+    }
+
+    .footer {
+      font-size:
+        clamp(22px, 2vw, 32px);
+
+      font-weight: 600;
+
+      color: #94a3b8;
+
+      margin-top: 10px;
+
+      width: 100%;
+
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="hymn-card">
+
+    <div
+      class="header"
+      id="hymn-title"
+    >
+      Tenzi za Rohoni
+    </div>
+
+    <div class="content-wrapper">
+
+      <div
+        class="content"
+        id="hymn-text"
+      ></div>
+
+    </div>
+
+    <div
+      class="footer"
+      id="hymn-label"
+    ></div>
+
+  </div>
+
+
+  <script>
+
+    let currentText = '';
+
+
+    /*
+     * Automatically reduce the font size
+     * when a long stanza needs more space.
+     */
+    function fitTextToContainer() {
+
+      const textElem =
+        document.getElementById(
+          'hymn-text'
+        );
+
+      const wrapper =
+        textElem.parentElement;
+
+      if (
+        !wrapper ||
+        wrapper.clientHeight === 0
+      ) {
+        return;
+      }
+
+      let fontSize = 86;
+
+      textElem.style.fontSize =
+        `${fontSize}px`;
+
+      while (
+
+        (
+          textElem.scrollHeight >
+            wrapper.clientHeight ||
+
+          textElem.scrollWidth >
+            wrapper.clientWidth
+        )
+
+        &&
+
+        fontSize > 24
+
+      ) {
+
+        fontSize -= 2;
+
+        textElem.style.fontSize =
+          `${fontSize}px`;
+      }
+    }
+
+
+    /*
+     * UPDATE DISPLAY
+     */
+    function updateDisplay(data) {
+
+      const card =
+        document.getElementById(
+          'hymn-card'
+        );
+
+      const textElem =
+        document.getElementById(
+          'hymn-text'
+        );
+
+
+      if (
+        data &&
+        data.action === 'show'
+      ) {
+
+        document.getElementById(
+          'hymn-title'
+        ).innerText =
+          `Tenzi ${data.number}: ${data.title}`;
+
+
+        textElem.innerText =
+          data.text || '';
+
+
+        document.getElementById(
+          'hymn-label'
+        ).innerText =
+          data.label || '';
+
+
+        /*
+         * Apply card background sent
+         * by the controller.
+         */
+        if (
+          data.style &&
+          data.style.background
+        ) {
+
+          card.style.background =
+            data.style.background;
+        }
+
+
+        /*
+         * Apply font color sent
+         * by the controller.
+         */
+        if (data.style && data.style.color) {
+          textElem.style.color = data.style.color;
+        } else if (data.textColor) {
+          textElem.style.color = data.textColor;
+        } else if (data.color) {
+          textElem.style.color = data.color;
+        }
+
+
+        card.classList.add('active');
+
+
+        /*
+         * Refit when the stanza changes.
+         */
+        if (
+          currentText !==
+          (data.text || '')
+        ) {
+
+          currentText =
+            data.text || '';
+
+          /*
+           * Let the browser render the
+           * active card before measuring.
+           */
+          requestAnimationFrame(
+            fitTextToContainer
+          );
+        }
+
+      } else {
+
+        card.classList.remove(
+          'active'
+        );
+
+      }
+    }
+
+
+    /*
+     * GET CURRENT SERVER STATE
+     *
+     * IMPORTANT:
+     *
+     * V1 SERVER expects exactly:
+     *
+     * GET /api/state
+     */
+    async function getServerState() {
+
+      try {
+
+        const response =
+          await fetch(
+            '/api/state',
+            {
+              cache: 'no-store'
+            }
+          );
+
+
+        if (!response.ok) {
+          return;
+        }
+
+
+        const data =
+          await response.json();
+
+
+        updateDisplay(data);
+
+      } catch (e) {
+
+        console.error(
+          'State sync error:',
+          e
+        );
+
+      }
+    }
+
+
+    /*
+     * Poll the server.
+     */
+    setInterval(
+      getServerState,
+      200
+    );
+
+
+    /*
+     * Initial state.
+     */
+    getServerState();
+
+
+    /*
+     * Refit if the OBS/browser
+     * display size changes.
+     */
+    window.addEventListener(
+      'resize',
+      fitTextToContainer
+    );
+
+
+    /*
+     * Refresh immediately when
+     * returning to the page.
+     */
+    document.addEventListener(
+      'visibilitychange',
+      () => {
+
+        if (
+          document.visibilityState ===
+          'visible'
+        ) {
+
+          getServerState();
+
+        }
+
+      }
+    );
+
+  </script>
+
+</body>
+</html>

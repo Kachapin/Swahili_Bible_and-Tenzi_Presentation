@@ -1,0 +1,36 @@
+  {
+    "number": 115,
+    "title": "Kilima kando ya Mji",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kilima kando ya mji\nAlikufa Bwana;\nKuokoa wakosaji\nAkateswa sana."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kabisa hayasemeki,\nMateso dhaifu\nAlikufa mwenye Haki\nTupate wokovu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Alimwaga damu yake\nIli tuwe wema,\nTufae kukaa kwake\nMbinguni daima."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Hatuna mwenye imani\nAliye na haki,\nWa kutosha yetu deni,\nRafiki Yesu tu."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Alijua peke yake\nKufungu Mbingu\nUfunguo damu yake\nKondoo wa Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Aliyetupenda hivyo\nNasi tumpende,\nTukamtumai vivyo\nNa kazi tutende."
+      }
+    ]
+  }

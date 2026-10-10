@@ -1,0 +1,36 @@
+  {
+    "number": 63,
+    "title": "Ndugu wa kirohoni",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ndugu wa kirohoni\nMliokombolewa,\nTafakarini sana\nYatupasayo.\n\nWapenzi wake Yesu\nTuliokombolewa\nTujitoe kabisa\nWengi waponywe."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Siku itatimia\nTutakapoulizwa\nWale wa nyumba zetu\nNa majirani"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Tujitoeni, ndugu,\nTukahubiri Injili.\nAtutumie Roho\nkuponya wengi."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Wasiokombolewa\nNi wengi vijijini,\nWataokolewaje\nTukiogopa?"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Bwana alijitoa\nAkapotewa mengi,\nIli atuokoe,\nTusiwe waoga."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Aliyetununua,\nKwa kuimwaga damu,\nAngalieni sana\nMsimwepuke."
+      }
+    ]
+  }

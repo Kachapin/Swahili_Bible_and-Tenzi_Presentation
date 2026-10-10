@@ -1,0 +1,27 @@
+{
+    "number": 13,
+    "title": "Tafuta daima utakatifu",
+    "chorus": null,
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Tafuta daima utakatifu;\nFanya urafiki na Wakristo\ntu;\nNena siku zotena Bwana\nwako,\nBaraka uombe kwa kila\njambo."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Tafuta daima utakatifu;\nUwe peke yako ukimwabudu;\nUkimwangalia mwokozi wako,\nUtabadilishwa kama alivyo."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Tafuta daima utakatifu;\nKiongozi wako aew Yesu tu;\nKatika furaha au huzuni\nDumu kumfuata Yesu\nMwokozi."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Tafuta daima utakatifu;\nUmtawaze Roho moyoni mwako;\nAkikuongoza katika haki,\nHufanywa tayari kwa kazi\nyake."
+      }
+    ]
+  }

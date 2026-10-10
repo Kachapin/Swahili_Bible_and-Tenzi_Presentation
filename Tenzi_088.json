@@ -1,0 +1,22 @@
+  {
+    "number": 88,
+    "title": "Ndiyo damu ya Baraka",
+    "chorus": "Safi kabisa; safi kabisa!\nNioshe katika damu;\nTakuwa safi kabisa.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ndiyo damu ya baraka\nituoshayo wakosa,\nKwake Bwana twaokoka, nasi\ntwamsifu sasa;\nNimestahili hukumu, siwezi\nkujitakasa;\nNioshe katika damu, takuwa\nsafi kabisa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu alivikwa miiba, na\nkuangikwa Mtini,\nNa maumivu si haba\nyaliyompata chini.\nNataka kijito hicho niende\nkuoga sasa;\nNdicho kinitakasacho, nami\nni safi kabisa."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Baba, kweli nimekosa,\nmoyo wangu ni dhaifu;\nDhambi ni nyingi kabisa,\nnipate wapi wokovu?\nYesu kijitoni pako, naja\naamini sasa;\nNioshe kwa damu yako,\ntakuwa safi kabisa."
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+ {
+    "number": 100,
+    "title": "Tumrudie Bwana",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mbona washangaa njiani?\nMbona warejea nyuma?\nWarudi tena gizani\nAlimokutoa Bwana?"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ni ya bure yote haya,\nUliyofunzwa ya Mungu?\nNi bure amekufia\nBwana Yesu kwa uchungu?"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Wamtia kristo aibu\nNa maneno yake pia?\nSiku yaja ya hesabu,\nUtamjibuje Bwana?"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Upandapo tena hayo,\nHalafu utayavuna.\nRudi kwa Bwana upesi,\nMwombe akupokee tena."
+      }
+    ]
+  }
+  

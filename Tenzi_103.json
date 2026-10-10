@@ -1,0 +1,32 @@
+  {
+    "number": 103,
+    "title": "Kaa nami",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kaa nami, ni usiku\ntena;\nUsiniache gizani, Bwana;\nMsaada wako haukomi;\nNili peke yangu, kaa nami."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Siku zetu hazikawi\nkwisha,\nSioni la kunifurahisha;\nHakuna ambacho hakikomi,\nUsiye na mwisho kaa nami."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nina haja nawe kila\nsaa;\nSina mwingine wa kunifaa;\nMimi nitaongozwa na nani\nIla wewe? Bwana, kaa nami."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Sichi neno uwapo\nkaribu;\nNipatalo lote, si taabu;\nKifo na kaburi haviumi;\nNitashinda kwako, kaa\nnami."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Nilalapo nikuone wewe,\nGizani mote nimulikiwe;\nNuru za mbinguni hazikomi,\nSiku zangu zote kaa nami."
+      }
+    ]
+  }
+ 

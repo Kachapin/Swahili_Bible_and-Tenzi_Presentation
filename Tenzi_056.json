@@ -1,0 +1,27 @@
+  {
+    "number": 56,
+    "title": "Ni sikukuu siku ile",
+    "chorus": "Siku kuu! Siku kuu!\nYa kuoshwa dambi zangu kuu!\nHukesha na kuomba tu,\nAnaniongoza miguu.\nSiku kuu! siku kuu!\nYa kuoshwa dhambi zangu kuu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ni siku kuu siku ile\nYa kumkiri Mwokozi!\nMoyo umejaa tele,\nKunyamaza hauwezi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Tumekwisha kupatana\nMimi wake, yeye wangu,\nNa sasa nitamwandama,\nNikiri neno la Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Moyo tulia kwa Bwana\nKiini cha raha yako,\nHuna njia mbili tena;\nYesu ndiye njia yako."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nadhiri yangu ya mbele\nNitaiweka daima,\nHata ije siku ile,\nYa kwonana kwa salama"
+      }
+    ]
+  }

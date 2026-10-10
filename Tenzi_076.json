@@ -1,0 +1,26 @@
+  {
+    "number": 76,
+    "title": "Njoni, enyi wa imani",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Njoni na furaha, enyi\nwa imani,\nNjoni Bethilehemu upesi !\nAmezaliwa jumbe wa\nMbinguni;\nNjoni tumuabudu, njonu\ntumuabudu,\nNjoni tumuabudu Mwokozi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Mungu wa waungu, Mwanga\nwa mianga,\nAmekuwa radhi kuzaliwa;\nMungu wa kweli, wala si\nkiumbe;\nNjoni tumuabudu, njonu\ntumuabudu,\nNjoni tumuabudu Mwokozi."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Jeshi la Mbinguni,\nImbeni kwa nguvu,\nMbingu zote na zijae sifa;\nSifuni Mungu aliye\nMbinguni;\nNjoni tumuabudu, njonu\ntumuabudu,\nNjoni tumuabudu Mwokozi."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ewe Bwana mwema,\ntwakubarikia,\nYesu, utukufu uwe wako;\nNeno la Baba limekuwa\nmwili;\nNjoni tumuabudu, njonu\ntumuabudu,\nNjoni tumuabudu Mwokozi."
+      }
+    ]
+  }

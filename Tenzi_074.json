@@ -1,0 +1,36 @@
+  {
+    "number": 74,
+    "title": "Wachunga walipolinda",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Wachunga walipolinda\nKucha nyama zao,\nMalaika mtukufu\nAlishuka kwao."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wakacha sana wachunga,\nAkawatuliza,\n“Nawaletea habari\nYa kuwapendeza.”"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "”Mji ule wa Daudi\nLeo amezawa\nMwokozi ni Kristo Bwana,\nIlivyoandikwa”."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "”Huyo mwana wa Mbinguni\nAtaonekana,\nAmelazwa kihorini\nMalazi hapana.”"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Alipokwisha yanena\nMalaika hao\nWaliimba wimbo huu\nUsio na mwisho:"
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "”Enzi ni yake Munju\njuu,\nNa nchi salama,\nKwa watu nao radhi kuu,\nSasa na daima.”"
+      }
+    ]
+  }

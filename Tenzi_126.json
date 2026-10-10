@@ -1,0 +1,27 @@
+ {
+    "number": 126,
+    "title": "Ni mji mzuri",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ni mji mzuri,\nMbali sana;\nWatu wanawiri\nKama jua;\nWaimba kwa tamu,\nTuna wema hakimu:\nSifa na idumu,\nKwake Bwana."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ni mji mzuri\nTwende sote!\nUna na fahari\nMsikawe!\nRaha tutaona,\nDhambi hapana tena;\nHatutaachana\nSiku zote."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Ni mji mzuri;\nMacho yote\nHuko wanawiri\nKama pete;\nBaba tutamwona,\nTukifanywa tu wana;\nTumo kupendana\nNaye sote."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Ni mji mzuri;\nTusipotee\nNa tuwe hodari,\nTuupate!\nTufunze, tutume\nKwa taji na ufalme:\nSifa na zivume\nSiku zote."
+      }
+    ]
+  }
+ 

@@ -1,0 +1,32 @@
+  {
+    "number": 155,
+    "title": "Hapana rafiki kama Yesu",
+    "chorus": "Yesu ajua shida zetu,\nAweza kutuongoza;\nHapana rafiki kama Yesu,\nYu pekee yu pekee.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Hapana rafiki kama\nYesu,\nYu pekee, Yu pekee;\nHapana mpozi kama Yesu\nYu pekee, Yu pekee."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yeye anaye sifa, ni\nYesu\nYu pekee, yu pekee;\nNdiye aliye mnyenyekevu\nYu pekee, yu pekee;\nYesu ajua……"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yesu pamoja nasi daima,\nYu pekee, yu pekee;\nKwa usiku aleta salama,\nYu pekee, yu pekee;\nYesu ajua……"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Kulinda Yesu yu\nMwaminifu,\nYu pekee, yu pekee;\nAtawakubali wahalifu,\nYu pekee, yu pekee;\nYesu ajua….."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Alipelekwa awe mwokozi,\nYu pekee, yu peee;\nAnatutayarisha enzi\nYu pekee, yu pekee;\nYesu ajua……."
+      }
+    ]
+  }

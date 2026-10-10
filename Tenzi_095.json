@@ -1,0 +1,32 @@
+  {
+    "number": 95,
+    "title": "Hivi vita vimekoma",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Hivi vita vimekoma,\nVimeshindwa na uzima,\nNa asifiwe daima,\nBwana Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nguvu za kifo ni hizo,\nIla hazina uwezo,\nNdizo sasa avunjazo,\nBwana Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Siku tatu za huzuni,\nKisha atoka ufuni,\nAsifiwe duniani,\nBwana Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Mapingu ameyavunja,\nMbingu amezifungua,\nNasi sasa twamwimbia,\nBwana Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Na ulivyopigwa wewe,\nNi kwamba tufunguliwe,\nMilele na usifiwe,\nBwana Yesu."
+      }
+    ]
+  }
+ 

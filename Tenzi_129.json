@@ -1,0 +1,26 @@
+  {
+    "number": 129,
+    "title": "Karibu na wewe",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Karibu na wewe,\nMungu wangu\nKaribu zaidi,\nBwana wangu\nSiku zote niwe\nKaribu na wewe,\nKaribu zaidi\nMungu wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Mimi nasafiri\nDuniani,\nPa kupumzika\nSipaoni,\nNilalapo niwe\nKaribu na wewe,\nKaribu zaidi\nMungu wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Na kwa nguvu zangu\nNikusifu;\nMwamba, uwe maji\nYa wokovu;\nMashakani niwe\nKaribu na wewe;\nKaribu zaidi\nMungu wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Na nyumbani mwa juu,\nBaba yangu,\nZikikoma hapa\nSiku zangu,\nKwa furaha niwe\nPamoja na wewe,\nKaribu kabisa\nMungu wangu."
+      }
+    ]
+  }

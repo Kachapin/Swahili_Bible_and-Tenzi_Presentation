@@ -1,0 +1,27 @@
+  {
+    "number": 54,
+    "title": "Yesu nataka kutakaswa sana",
+    "chorus": "Mweupe tu, ndiyo mweupe,\nUkiniosha nitakuwa safi.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu nataka kutakaswa sana,\nNataka moyo uwe enzi yako.\nUkiangushe kilichoinuka\nUnioshe sasa niwe mweupe."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Bwaba Yesu, unitazame sasa,\nUnifanye niwe dhabihu hai;\nNajitoa kwako, na moyo wote;\nUnioshe sasa niwe mweupe."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Bwana kwa hiyo nakuomba sana,\nNakungojea miguuni pako,\nNaomba unioshe damuni tu,\nUnioshe sasa niwe mweupe."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Bwana nidumu kukungojea,\nNiumbie moyo safi, Ee Mungu,\nWanaokujia hutupi kamwe,\nUnioshe sasa niwe mweupe."
+      }
+    ]
+  }

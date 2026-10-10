@@ -1,0 +1,32 @@
+ {
+    "number": 94,
+    "title": "Siku ya mbingu kujawa na sifa",
+    "chorus": "Alinipenda, alinifia,\nAmeondoa na dhambi zangu;\nAlifufuka nipewe haki,\nYuaja tena Mwokozi wangu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Siku ya Mbinguni kujawa\nna sifa,\nDhambi zilizidi duniani;\nYesu akaja azaliwe mtu,\nAwe na watu ulimwenguni."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Na siku moja walikwenda\nnaye,\nWakamkaza msalabani;\nAliumia, aliaibishwa,\nIli atuokoe dhambini."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Siku hiyo wakamlaza\nchini\nKaburini alipumzika;\nMatumaini yetu wenye\ndhambi,\nNi mwokozi, kwake\ntwaokoka."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Kaburi likashindwa\nkumshika;\nJiwe likatoka mlangoni,\nAlifufuka kwa kushinda\nkwake,\nNaye yuko milele Mbinguni."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Siku moja atatujia\ntena;\nUtukufu wake tutaona;\nAtawaleta na wapenzi wetu;\nMwokozi: wangu, tutaonana."
+      }
+    ]
+  }

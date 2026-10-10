@@ -1,0 +1,33 @@
+{
+    "number": 29,
+    "title": "Baba yetu aliye Mbinguni",
+    "chorus": "Anipenda Mwokozi Yesu,\nAnipenda, anipenda;\nAnipenda Mwokozi Yesu,\nAnipenda mimi.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Baba yetu aliye\nMbinguni\nAmenifurahisha yakini\nKuniambia mwake chuoni\nYa kuwa nami Yesu pendoni."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Nimuachapo kutanga\nmbali,\nYeye yu vivyo, hupenda\nkweli,\nHunirejeza kwake moyoni;\nKweli yu nami Yesu\npendoni."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Anipenda! Nami\nnampenda;\nKwa wokovu alionitenda;\nAkanifia Msalabani\nKwa kuwa nami Yesu\npendoni."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Haya kujua yanipa raha;\nKumuamini kuna furaha;\nHumfukuza mara shetani,\nKwona yu nami Yesu\nPendoni."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Sifa ni nyingi\nasifiwazo,\nMoja ni sana katika hizo,\nWala siachi, hata\nMbinguni,\nKwimba, “Yu nami Yesu\npendoni”."
+      }
+    ]
+  }
+  

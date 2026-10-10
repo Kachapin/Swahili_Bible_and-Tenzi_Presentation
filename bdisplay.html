@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Bible Display</title>
+
+<style>
+
+/* ==================================================
+   CANVAS
+   ================================================== */
+
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+
+    background: transparent;
+}
+
+
+/* ==================================================
+   BIBLE BOX
+   ================================================== */
+
+#bible {
+
+    position: absolute;
+
+    box-sizing: border-box;
+
+    transform: none;
+
+    color: #ffffff;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    opacity: 0;
+
+    transition:
+        opacity 0.15s ease;
+
+    z-index: 10;
+
+    padding: 12px 18px;
+
+    border-radius: 6px;
+
+    overflow: hidden;
+}
+
+
+/* ==================================================
+   REFERENCE / HEADING
+   ================================================== */
+
+#reference {
+
+    font-weight: bold;
+
+    line-height: 1.2;
+
+    margin-bottom: 14px;
+
+    text-shadow:
+        0 2px 4px rgba(0,0,0,0.7);
+}
+
+
+/* ==================================================
+   TEXT
+   ================================================== */
+
+#text {
+
+    line-height: 1.4;
+
+    white-space: normal;
+
+    text-shadow:
+        0 2px 4px rgba(0,0,0,0.7);
+}
+
+
+/* ==================================================
+   VERSE
+   ================================================== */
+
+#text .verse {
+
+    display: inline;
+}
+
+
+/* ==================================================
+   VERSE NUMBER
+   ================================================== */
+
+#text sup {
+
+    font-size: 0.55em;
+
+    font-weight: bold;
+
+    vertical-align: super;
+
+    line-height: 0;
+
+    margin-right: 5px;
+
+    text-shadow:
+        0 1px 3px rgba(0,0,0,0.8);
+}
+
+
+/* ==================================================
+   FULL SCREEN
+   ================================================== */
+
+#bible.fullscreen {
+
+    left: 10%;
+
+    top: 5%;
+
+    width: 80%;
+
+    height: 90%;
+
+    text-align: left;
+}
+
+#bible.fullscreen #reference {
+
+    font-size: 45px;
+}
+
+#bible.fullscreen #text {
+
+    font-size: 60px;
+}
+
+
+/* ==================================================
+   HALF SCREEN
+   ================================================== */
+
+#bible.half {
+
+    left: 52%;
+
+    top: 10%;
+
+    width: 40%;
+
+    height: 80%;
+
+    text-align: left;
+}
+
+#bible.half #reference {
+
+    font-size: 34px;
+}
+
+#bible.half #text {
+
+    font-size: 38px;
+}
+
+
+/* ==================================================
+   LOWER THIRD
+   ================================================== */
+
+#bible.lowerthird {
+
+    left: 5%;
+
+    bottom: 9%;
+
+    width: 90%;
+
+    height: auto;
+
+    text-align: left;
+
+    overflow: visible;
+}
+
+#bible.lowerthird #reference {
+
+    font-size: 31px;
+}
+
+#bible.lowerthird #text {
+
+    font-size: 38px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="bible">
+
+    <div id="reference"></div>
+
+    <div id="text"></div>
+
+</div>
+
+
+<script>
+
+let lastTimestamp = 0;
+
+
+/* ==================================================
+   UPDATE DISPLAY
+   ================================================== */
+
+async function updateDisplay() {
+
+    try {
+
+        /*
+           IMPORTANT:
+           Do NOT add query parameters here.
+
+           server.py checks exactly:
+           /api/state
+        */
+
+        const response =
+            await fetch(
+                "/api/state",
+                {
+                    cache: "no-store"
+                }
+            );
+
+        if (
+            !response.ok
+        ) {
+
+            return;
+
+        }
+
+        const state =
+            await response.json();
+
+
+        if (
+            state.timestamp &&
+            state.timestamp ===
+                lastTimestamp
+        ) {
+
+            return;
+
+        }
+
+
+        if (
+            state.timestamp
+        ) {
+
+            lastTimestamp =
+                state.timestamp;
+
+        }
+
+
+        if (
+            state.action ===
+            "hide"
+        ) {
+
+            hideBible();
+
+            return;
+
+        }
+
+
+        if (
+            state.action ===
+            "bible"
+        ) {
+
+            showBible(
+                state
+            );
+
+        }
+
+    }
+
+    catch (error) {
+
+        console.error(
+            "Bible display error:",
+            error
+        );
+
+    }
+
+}
+
+
+/* ==================================================
+   SHOW BIBLE
+   ================================================== */
+
+function showBible(
+    state
+) {
+
+    const bible =
+        document.getElementById(
+            "bible"
+        );
+
+    const reference =
+        document.getElementById(
+            "reference"
+        );
+
+    const text =
+        document.getElementById(
+            "text"
+        );
+
+
+    /*
+       Reset class first.
+    */
+
+    bible.className = "";
+
+
+    /*
+       Apply selected layout.
+    */
+
+    if (
+        state.layout ===
+        "half"
+    ) {
+
+        bible.classList.add(
+            "half"
+        );
+
+    }
+
+    else if (
+        state.layout ===
+        "lowerthird"
+    ) {
+
+        bible.classList.add(
+            "lowerthird"
+        );
+
+    }
+
+    else {
+
+        bible.classList.add(
+            "fullscreen"
+        );
+
+    }
+
+
+    /*
+       Apply colours.
+    */
+
+    bible.style.color =
+        state.fontColor ||
+        "#ffffff";
+
+    bible.style.backgroundColor =
+        state.bgColor ||
+        "transparent";
+
+
+    /*
+       Apply opacity.
+    */
+
+    bible.style.opacity =
+        state.opacity !==
+        undefined
+            ? state.opacity
+            : 0.95;
+
+
+    /*
+       Reference.
+    */
+
+    reference.textContent =
+        state.reference ||
+        "";
+
+
+    /*
+       Verse text.
+
+       Each verse remains a complete unit.
+       Verse numbers remain superscript.
+    */
+
+    if (
+        Array.isArray(
+            state.verses
+        ) &&
+        state.verses.length > 0
+    ) {
+
+        text.innerHTML =
+            state.verses
+                .map(
+                    v => {
+
+                        const number =
+                            escapeHTML(
+                                v.verse
+                            );
+
+                        const verseText =
+                            escapeHTML(
+                                v.text
+                            );
+
+                        return `
+                            <span class="verse">
+                                <sup>${number}</sup>
+                                ${verseText}
+                            </span>
+                        `;
+
+                    }
+                )
+                .join(
+                    "<br><br>"
+                );
+
+    }
+
+    else {
+
+        text.textContent =
+            state.text ||
+            "";
+
+    }
+
+}
+
+
+/* ==================================================
+   HIDE BIBLE
+   ================================================== */
+
+function hideBible() {
+
+    const bible =
+        document.getElementById(
+            "bible"
+        );
+
+    bible.style.opacity =
+        "0";
+
+}
+
+
+/* ==================================================
+   ESCAPE HTML
+   ================================================== */
+
+function escapeHTML(
+    text
+) {
+
+    const div =
+        document.createElement(
+            "div"
+        );
+
+    div.textContent =
+        text == null
+            ? ""
+            : String(text);
+
+    return div.innerHTML;
+
+}
+
+
+/* ==================================================
+   POLLING
+   ================================================== */
+
+setInterval(
+    updateDisplay,
+    300
+);
+
+updateDisplay();
+
+</script>
+
+</body>
+
+</html>

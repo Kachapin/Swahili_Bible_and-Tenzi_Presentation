@@ -1,0 +1,32 @@
+  {
+    "number": 65,
+    "title": "Safari",
+    "chorus": "Ng’oani! Tujifungeni,\nTwende zetu juu!\nKristo ndiye kiongozi;\nTusihofu tu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Katika safari yetu\nKwenda Mbinguni\nTusiishe siku zetu\nUsingizini."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Atwekwe badala yetu,\nMwenyewe Bwana;\nYesu kiongozi wetu\nAtapokea."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kisimani, maji tele,\nMaji mazima!\nMaji hayo,\nYa milele\nYana neema."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Njiani miiba mingi,\nYatuumiza;\nHofu na hatari nyingi,\nSana zakaza."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Kweli, njia ya Mbinguni\nNi ya mashaka;\nTuwe na Yesu njiani,\nMara hufika."
+      }
+    ]
+  }

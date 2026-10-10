@@ -1,0 +1,27 @@
+{
+    "number": 21,
+    "title": "Roho yangu hima",
+    "chorus": "Yesu yuko mbele, Yesu yu\nnyuma,\nYesu vivyo kando, walindwa\nvyema.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Roho yangu hima, na taa\nyako\nKaiwashe vyema, hapa si\npako;\nNguvu zote pia za duniani\nHazitakudhuru ukiamini."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Adui shetani, na nguvu\nzake,\nBwana ameshinda, kwa kifo\nchake;\nWewe nguvu huna, huna\nkabisa,\nNdiwe mpungufu, mnyonge\nhasa."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Toka na mapema, mbele\nya wote,\nOmba, bisha sana, maisha\nyote;\nVita vikaliko, macho ukae,\nJivike silaha, nawe\nsishindwe."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Bwana Yesu ndiye kwako\nmchunga,\nNeno lake Bwana ndilo\nupanga;\nMbingu zitakwisha, na nchi\npia,\nNeno lake Bwana laendelea."
+      }
+    ]
+  }

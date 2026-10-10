@@ -1,0 +1,23 @@
+{
+    "number": 36,
+    "title": "Anisikiaye aliye yote",
+    "chorus": "Ni “Atakaye”, ni “atakaye”,\nPwani hata bara, na litangae;\nNi Baba Mpenzi alinganaye\nAtakaye na aje.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Anisikiaye, aliye yote;\nSasa litangae, wajue wote,\nDuniani kote neno wapate,\nAtakaye na aje!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Anijiliaye, Yesu asema,\nAsikawe, aje hima mapema;\nNdimi njia, kweli, ndimi uzima;\nAtakaye na aje!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Atakaye aje, ndivyo ahadi;\nAtakaye hiyo, haitarudi!\nAtakaye lake, ni la abadi!\nAtakaye na aje."
+      }
+    ]
+  }
+ 

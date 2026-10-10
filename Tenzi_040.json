@@ -1,0 +1,39 @@
+
+  {
+    "number": 40,
+    "title": "Nasikia kuitwa",
+    "chorus": "Nimesogea Mtini pako,\nUnisafi kwa damu ya kwangikwa kwako.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nasikia kwitwa\nNa sauti yako\nNikasafiwe kwa damu\nYa kwangikwa kwako."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ni mnuonge kweli,\nUmenipa nguvu,\nUlivyonisafi taka,\nNi utimilivu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yesu hunijuvya;\nMapenzi, imani;\nTumai, amani, radhi,\nHapa na Mbinguni."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Huipa imara,\nKazi yake, ndani:\nHuongezeka neema,\nAshindwe Shetani."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Huishuhudia,\nMyoyo ya imani\nYa kuzipata ahadi,\nWakimuamini."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Napata wokovu,\nWema na neema;\nkwako Bwana nina nguvu\nNa haki daima."
+      }
+    ]
+  }
+  

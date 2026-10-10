@@ -1,0 +1,32 @@
+{
+  "number": 2,
+  "title": "Twamsifu Mungu",
+  "chorus": "Aleluya! Usifiwe; Aleluya! Amin.\nAleluya! Usifiwe, utubariki.",
+  "stanzas": [
+    {
+      "type": "stanza",
+      "index": 1,
+      "text": "Twamsifu Mungu kwa Mwana wa Pendo,\nAliyetufia na kupaa juu."
+    },
+    {
+      "type": "stanza",
+      "index": 2,
+      "text": "Twamsifu Mungu kwa Roho Mtukufu,\nAmetufunulia Mwokozi wetu."
+    },
+    {
+      "type": "stanza",
+      "index": 3,
+      "text": "Twamsifu Mwana, aliyetufia,\nAliyetwaa dhambi akazifuta."
+    },
+    {
+      "type": "stanza",
+      "index": 4,
+      "text": "Twamsifu Mungu wa neema yote,\nAmetukomboa akatuongoza."
+    },
+    {
+      "type": "stanza",
+      "index": 5,
+      "text": "Tuamshe tena, tujaze na pendo,\nNa moyoni uwashe moto wa Roho."
+    }
+  ]
+}

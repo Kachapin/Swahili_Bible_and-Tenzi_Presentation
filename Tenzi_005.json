@@ -1,0 +1,37 @@
+{
+  "number": 5,
+  "title": "Jina lake Yesu tamu",
+  "chorus": null,
+  "stanzas": [
+    {
+      "type": "stanza",
+      "index": 1,
+      "text": "Jina lake Yesu tamu;\nTukilisikia\nHutupoza, tena hamu\nHutuondolea."
+    },
+    {
+      "type": "stanza",
+      "index": 2,
+      "text": "Roho iliyoumia\nKwalo hutibika,\nChakula, njaani pia;\nRaha, tukichoka."
+    },
+    {
+      "type": "stanza",
+      "index": 3,
+      "text": "Jina hili ni msingi,\nNgao, ngome, mwamba,\nKwa hili napata wingi,\nKwangu ni akiba."
+    },
+    {
+      "type": "stanza",
+      "index": 4,
+      "text": "Yesu, Mchunga, Rafiki\nMwalimu, Kuhani,\nMwanzo, Mwisho, Njia,\nHaki,\nUzima kifoni."
+    },
+    {
+      "type": "stanza",
+      "index": 5,
+      "text": "Moyo wangu hauwezi,\nKukusifu kweli,\nIla sifa zangu hizi,\nBwana zikubali."
+    },
+    {
+      "type": "stanza",
+      "index": 6,
+      "text": "Na utakaponiita,\nKuja kwako Bwana,\nHuko kwako sitaacha\nKukusifu sana."
+    }
+  ]
+}

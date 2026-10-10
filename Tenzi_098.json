@@ -1,0 +1,31 @@
+  {
+    "number": 98,
+    "title": "Huyo ndiye anashuka",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Huyo ndiye! anaskuka,\nAliyetufilia,\nWengi waliookoka,\nWakimfurahia,\nAleluya!\nYesu aturudia."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Sote tutamtazama,\nAmekaa kitini,\nNao waliomcoma,\nKumkaza mtini,\nNa kilio, wamuone enzini."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Alama za kifo chake\nHata sasa anazo\nNa waaminifu wake\nWapendezewa nazo.\nAlipata,\nKwetu alama hizo."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Wokovu utakiwao\nSasa wapatikana,\nNa watakatifu hao\nMbinguni wakutana\nKumlaki,\nNdiyo siku ya Bwana"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Wakusujudie wote\nMbele ya kiti chako.\nZako, Bwana, nguvu zote\nItwae milki yako\nNjoo Bwana,\nSisi tu watu wako."
+      }
+    ]
+  }

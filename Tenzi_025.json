@@ -1,0 +1,28 @@
+{
+    "number": 25,
+    "title": "Nimekombolewa na Yesu",
+    "chorus": "Kombolewa!\nNakombolewa na damu;\nKombolewa!\nMimi mwana wake kweli.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nimekombolewa na Yesu\nAliyenirehemia;\nKwa bei ya mauti yake\nNimekuwa mtoto wake."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kukombolewa nafurahi,\nKupita lugha kutamka;\nKulionyesha pendo lake,\nNimekuwa mtoto wake."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nitamwona uzuri wake,\nMfalme wangu wa ajabu;\nNa sasa najifurahisha,\nKatika neema yake."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Najua taji imewekwa\nMbinguni tayari kwangu;\nMuda kitambo atakuja,\nIli alipo, niwepo."
+      }
+    ]
+  }
+  

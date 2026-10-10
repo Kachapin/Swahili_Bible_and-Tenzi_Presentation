@@ -1,0 +1,36 @@
+  {
+    "number": 90,
+    "title": "Aliteswa, aliteswa",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Aliteswa, aliteswa,\nMsalabani Yesu aliteswa,\nDhambi zangu ameziondoa,\nMahali pangu aliumizwa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Alikufa, alikufa,\nMsalabani Yesu alikufa,\nKwa kifo chake\nnakombolewa,\nKwa kuwa Yesu alinifia."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "’Kafufuka, ‘kafufuka,\nKaburini Yesu alitoka,\nNami nimewekwa huru pia,\nkwa kuwa Yesu alifufuka."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Yuko hai, yuko hai,\nMbinguni anaishi Mwombezi,\nDaima huniombea mimi,\nKwa kuwa Yesu adumu hai."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Atarudi, atarudi,\nSiku moja Yesu atarudi,\nNa tutamwonapo tutafurahi,\nKwa kupelekwa kwake\nMbinguni."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Sifa kwake, sifa kwake,\nMbinguni na huimbwa\nmilele,\nKwa furaha, masifu, na\nshangwe,\nTutamwimbia Yesu milele."
+      }
+    ]
+  }

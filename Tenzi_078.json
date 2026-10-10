@@ -1,0 +1,37 @@
+ {
+    "number": 78,
+    "title": "Sioshwi dhambi zangu",
+    "chorus": "Hakuna kabisa\nDawa ya makosa\nYa kututakasa,\nIla damu yake Yesu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Sioshwi dhambi zangu,\nBila damu yake Yesu.\nHapendezewi Mungu,\nBila damu yake Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "La kunisafi sina\nIla damu yake Yesu.\nWala udhuru tena,\nIla damu yake Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Sipati patanishwa,\nBila damu yake Yesu.\nHukumu yanitisha,\nBila damu yake Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Sipati tumaini,\nBila damu yake Yesu.\nWema wala amani,\nBila damu yake Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Yashinda ulimwengu,\nHiyo damu yake Yesu.\nNa kutufikisha juu,\nHiyo damu yake Yesu."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Twaimba: Utukufu\nUna damu yake Yesu.\nMilele twaisifu,\nHiyo damu yake Yesu."
+      }
+    ]
+  }

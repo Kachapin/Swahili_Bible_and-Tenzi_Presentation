@@ -1,0 +1,31 @@
+{
+  "number": "3",
+  "title": "Hata ndimi elfu",
+  "chorus": null,
+  "stanzas": [
+    {
+      "index": 1,
+      "text": "Hata ndimi elfu elfu,\nHazitoshi kweli\nBwana Yesu kumsifu,\nKwa zake fadhili."
+    },
+    {
+      "index": 2,
+      "text": "Yesu, jina liwezalo\nKufukuza hofu;\nLanifurahisha hilo,\nLanipa wokovu."
+    },
+    {
+      "index": 3,
+      "text": "Jina hilo ni uzima;\nNi afya amani;\nLaleta habari njema;\nTwalipiwa deni."
+    },
+    {
+      "index": 4,
+      "text": "Yesu huvunja mapingu\nYa dhambi moyoni;\nMsamaha, tena nguvu,\nTwapata rohoni."
+    },
+    {
+      "index": 5,
+      "text": "Kwa sauti yake vile\nWafu hufufuka\nWakafurahi milele,\nPasipo mashaka."
+    },
+    {
+      "index": 6,
+      "text": "Ewe Yesu wangu Bwana,\nUwezo nipewe,\nKuhubiri kote sana,\nWote wakujue."
+    }
+  ]
+}

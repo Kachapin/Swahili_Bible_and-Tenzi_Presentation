@@ -1,0 +1,36 @@
+  {
+    "number": 85,
+    "title": "Ni mtu wa simanzi",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ni “Mtu wa Simanzi”,\nMwana wa mwenye enzi\nMwenye mengi mapenzi!\nAsifiwe Bwana Yesu!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Akawa matesoni,\n“Mungu mwana yakini\nAkatoka Mbinguni:\nAsifiwe Bwana Yesu!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Akapata dhihaka,\nMzoea – mashaka\nNdiye yetu sadaka:\nAsifiwe Bwana Yesu!"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Tu wenye dhambi sana;\nKwake dhambi hamna,\nNa Mungu twapatana:\nAsifiwe Bwana Yesu!"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Alikufa mtini,\nAkalia dhikini,\nSasa yuko Mbinguni:\nAsifiwe Bwana Yesu!"
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Punde atarejea,\nYesu kutunyakua,\nNdipo tutamwimbia:\nAsifiwe Bwana Yesu!"
+      }
+    ]
+  }

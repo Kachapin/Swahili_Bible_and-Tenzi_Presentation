@@ -1,0 +1,26 @@
+  {
+    "number": 58,
+    "title": "Mwamba mwenye imara",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mwamba wenye imara\nKwako nitajificha!\nMaji hayo na damu\nYaliyotoka humu,\nHunisafi na dhambi,\nHunifanya mshindi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kwa kazi zote pia ,\nSitimizi sharia.\nNijapofanya bidii,\nNikilia nakudhii,\nHayaishi makosa;\nNdiwe wa kuokoa."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Sina cha mkononi,\nNaja Msalabani;\nNili tupu, nivike;\nNi mnyonge, nishike;\nNili mchafu naja,\nNioshe nisijafa."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nikungojapo chini,\nNakwenda kaburini;\nNipaapo Mbinguni,\nNa kukwona enzini:\nRoho yangu na iwe\nRahani mwako wewe."
+      }
+    ]
+  }

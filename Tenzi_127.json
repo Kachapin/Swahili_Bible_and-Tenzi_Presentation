@@ -1,0 +1,31 @@
+ {
+    "number": 127,
+    "title": "Bwana Yesu atakuja",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Bwana Yesu atakuja,\nVumilia!\nOmba, ukiwa na haja,\nVumilia!\nMbingunu Mungu aliko,\nMwamini Mwokozi wako,\nNawe utafika huko,\nVumilia!"
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ikikucheka dunia,\nVumilia!\nMwovu atakuvizia, Vumilia!\nHataweza kukushinda, Bwana\nYesu akulinda,\nRoho yako, akupenda,\nVumilia!"
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Na ukiwa hatarini,\nVumilia!\nDhiki nyingi duniani,\nVumilia!\nVyatupasa kuyakuta,\nMajaribu na matata,\nNa Bwana hakutuficha;\nVumilia!"
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Adui wakikutana,\nVumilia!\nNa ndugu wakikukana,\nVumilia!\nZote, zote zitakwisha,\nNguvu zote za kutisha\nMungu chini atashusha;\nVumilia!"
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Moyoni una majonzi,\nVumilia!\nNdiyo bonde-ya-machozi,\nVumilia!\nHima tutaandamana, Kwetu\nMbinguni na Bwana\nTena hatutaachana;\nVumilia!"
+      }
+    ]
+  }

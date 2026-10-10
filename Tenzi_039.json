@@ -1,0 +1,26 @@
+{
+    "number": 39,
+    "title": "Mwenye dhambi huna raha",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mwenye dhambi huna raha,\nSikiza nakusihi,\nUtapata msamaha\nKwake Yesu Mwokozi!\nNjoo hima, njoo hima,\nNaye atafurahi."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu anakwita sana\nNaye yuko Mbinguni;\nHofu ya kifo hapana\nKwake ukiamini.\nNjoo hima, njoo hima,\nUtapata amani."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Hatakwita siku zote;\nNi ya sasa nafasi.\nLete na uchafu wote,\nKukawa haipasi.\nNjoo hima, njoo hima,\nNi wokovu halisi."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Uzima uko kwa Bwana\nTwae uzima hasa\nBure unapatikana,\nWokovu twae sasa!\nNjoo hima, njoo hima,\nTwae utakatifu."
+      }
+    ]
+  }

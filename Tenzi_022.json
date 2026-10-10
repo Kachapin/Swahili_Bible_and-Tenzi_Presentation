@@ -1,0 +1,53 @@
+{
+    "number": 22,
+    "title": "Kale nilitembea",
+    "chorus": "Usifiwe Msalaba!\nLisifiwe kaburi!\nLinalozidi yote,\nAsifiwe Mwokozi!",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kale nilitembea\nNikilemewa dhambi\nNilikosa msaada,\nkuniponya mateso."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Hata nilipofika,\nMahali pa Msalaba,\nPalinifaa sana,\nSitasahau kamwe."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Hicho ndicho chanzo,\nCha kufurahi kwangu.\nHapo ndipo mzigo,\nUliponituliwa."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Panapo msalaba,\nKinatolewa cheti,\nCha kuingia Mbinguni,\nKisicho cha kanisa."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Yule Bwana mjinga,\nLikwenda bila cheti,\nKitumai kwingia,\nKama walio nacho."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Lipofika langoni,\nAkaulizwa cheti,\nCha kumwonyesha Bwana,\nAkakutwa hanacho."
+      },
+      {
+        "type": "stanza",
+        "index": 7,
+        "text": "Lituhuzunishalo,\nNi ninyi msio nacho,\nKuwa kama mjinga,\nKwa siku ya arusi!"
+      },
+      {
+        "type": "stanza",
+        "index": 8,
+        "text": "Ubavuni mwa Yesu,\nMlitokea damu,\nChemchemi ya uzima,\nItakasayo roho."
+      },
+      {
+        "type": "stanza",
+        "index": 9,
+        "text": "Jitahidi wingie,\nDamuni mwa Mwokozi,\nUtafutiwa dhambi,\nToka rohoni mwako."
+      }
+    ]
+  }
+  

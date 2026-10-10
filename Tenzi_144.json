@@ -1,0 +1,27 @@
+  {
+    "number": 144,
+    "title": "Mbele ninaendelea",
+    "chorus": "Ee, Bwana, uniinue,\nKwa imani nisimame;\nNipande milima yote,\nEe Bwana,\nUnipandishe.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Mbele ninaendelea,\nninazidi kutembea.\nMaombi uyasikie,\nEe Bwana, unipandishe."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Sina tamani nikae,\nMahali pa shaka, kamwe;\nHapo wengi wanakaa,\nKuendelea naomba."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nisikae duniani,\nasumbuapo Shetani;\nNatazamia mbinguni,\nnitafika na imani."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nataka nipandishwe juu,\nZaidi yale mawingu.\nNitaomba nifikishwe,\nEe Bwana unipandishe."
+      }
+    ]
+  }

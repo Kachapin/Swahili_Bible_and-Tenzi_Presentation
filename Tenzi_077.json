@@ -1,0 +1,33 @@
+  {
+    "number": 77,
+    "title": "Msalabani pa Mwokozi",
+    "chorus": "Mwana wa Mungu, Mwokozi\nwangu,\nAkaniokoa mpenzi, Mwana wa\nMungu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Msalabani pa mwokozi,\nHapo niliomba upozi,\nAkaniokoa mpenzi,\nMwana wa Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Chini ya mti msumbufu,\nNiliomba utakatifu,\nAlinikomboa kwa damu,\nMwana wa Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Aliniokoa dhambini,\nIkawa kunikaa ndani,\nAliponifia mtini,\nMwana wa Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Damu ya Yesu ya\nthamani,\nHuniokoa makosani,\nHuniendesha wokovuni,\nMwana wa Mungu."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Hicho kijito cha\ngharama,\nLeo jivike kwa kuzama,\nKwake uuone uzima,\nMwana wa Mungu."
+      }
+    ]
+  }
+ 

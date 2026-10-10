@@ -1,0 +1,27 @@
+  {
+    "number": 69,
+    "title": "Twendeni askari",
+    "chorus": "Twende askari watu wa Mungu;\nYesu yuko Mbele,\ntumwandame juu.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Twendeni askari, watu wa Mungu;\nYesu yuko mbele,\ntumwandame juu.\nAmetangulia Bwana vitani,\nTwende mbele kwani ndiye amini."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Jeshi la Shetani, likisikia\nJina la Mwokozi, litakimbia,\nKelele za shangwe zivume nchi;\nNdugu inueni zenu sauti."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kweli kundi dogo, watu wa Mungu\nSisi na mababa tu moja fungu.\nHatutengwi nao, moja imani,\nTumaini moja, na moja dini."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Haya mbele watu nasi njiani,\nInueni myoyo, nanyi sifuni;\nHeshima na sifa ni ya Mfalme,\nJuu hata chini, sana zivume."
+      }
+    ]
+  }

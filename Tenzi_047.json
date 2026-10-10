@@ -1,0 +1,29 @@
+
+  {
+    "number": 47,
+    "title": "Ni wako wewe",
+    "chorus": "Bwana vuta, vuta, nije nisongee,\nSana, kwako mtini.\nBwana vuta, vuta, nije nisongee,\nPa damu ya thamani.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ni wako wewe,\nnimekujua,\nNa umeniambia;\nLakini Bwana, nataka kwako\nnizidi kusongea."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Niweke sasa nikatumike\nKwa nguvu za neema;\nUyapendayo nami nipende,\nNizidi kukwandama."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nina furaha tele kila saa\nNizungumzavyo kwako,\nNikuombapo nami napata\nkujua nia yako."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Mapenzi yako hayapimiki,\nIla ng’ambo ya liko.\nAnasa pia sitazijua,\nBila kufika kwako."
+      }
+    ]
+  }
+ 

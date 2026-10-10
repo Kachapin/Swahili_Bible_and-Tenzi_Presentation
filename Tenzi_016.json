@@ -1,0 +1,29 @@
+{
+    "number": 16,
+    "title": "Kumtegemea Mwokozi",
+    "chorus": "Yesu,Yesu namwamini,\nNimemwona thabiti;\nYesu,Yesu,yu thamani,\nAhadi zake kweli.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Kumtegemea Mwokozi,\nKwangu tamu kabisa;\nKukubali neno lake\nNina raha moyoni."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Kumtegemea Mwokozi,\nKwangu tamu kabisa,\nKuamini damu yake\nNimeoshwa kamili."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Kumtegemea Mwokozi,\nKwangu tamu kabisa,\nKwake daima napata\nUzima na amani."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Nafurahi kwa sababu\nNimekutegemea;\nYesu,Mpendwa na Rafiki\nUwe nami dawamu."
+      }
+    ]
+  }
+
+  

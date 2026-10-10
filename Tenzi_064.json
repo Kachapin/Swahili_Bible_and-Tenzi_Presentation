@@ -1,0 +1,22 @@
+  {
+    "number": 64,
+    "title": "Ujaribiwapo, sifanye dhambi",
+    "chorus": "Umwombapo yu papo\nAkuongeze nguvu,\nAtakusaidia;\nYesu atakufaa.",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Ujaribiwapo, sifanye dhambi,\nBali uzishinde, kwa Yesu kutii.\nFuliza kiume ushinde tamaa;\nYesu ni Mwokozi, hukuokoa."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Wepushe waovu, matusi dharau;\nHeshima la Mungu, kamwe sisahau;\nFanya uhodari, uwe mpole,\nAtakuokoa hata milele."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Avumiliaye hupewa taji;\nTujaposumbuka tu washindaji,\nNa mwokozi wetu hutuwezesha\nTusiwe kushindwa kama twakesha."
+      }
+    ]
+  }

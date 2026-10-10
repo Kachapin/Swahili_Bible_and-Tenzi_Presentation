@@ -1,0 +1,28 @@
+{
+    "number": 26,
+    "title": "Yesu unipendaye",
+    "chorus": null,
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu unipendaye\nKwako nakimbilia,\nNi wewe utoshaye,\nMwovu akinijia;\nYafiche ubavuni,\nMwako maisha yangu;\nNifiikishe mbinguni\nWokoe moyo wangu."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Ngome nyingine sina;\nNategemea kwako.\nUsinitupe Bwana ,\nNipe neema yako,\nNinakuamania\nMwenye kuniwezesha;\nShari wanikingia,\nVitani wanitosha."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Nakutaka Mpaji\nVyote napata kwako;\nNiwapo muhitaji,\nUtanijazi vyako;\nNao waangukao\nWanyonge wape nguvu;\nPoza wauguao,\nUongoze vipofu."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Bwana umeniosha\nMoyo kwa damu yako;\nNeema ya kutosha\nYapatikana kwako;\nKwako Bwana naona\nKisima cha uzima;\nMwangu moyoni Bwana,\nBubujika daima."
+      }
+    ]
+  }
+  

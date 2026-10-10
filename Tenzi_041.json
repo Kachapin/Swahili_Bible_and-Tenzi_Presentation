@@ -1,0 +1,22 @@
+{
+    "number": 41,
+    "title": "Yesu aliniita, “Njoo”",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Yesu aliniita, “njoo,\nRaha iko kwangu,\nKichwa chako ukilaze\nKifuani mwangu.”\nNilikwenda kwake mara,\nSana nilichoka;\nNikapata kwake raha,\nNa furaha tena."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Yesu aliniita, “njoo,\nKwangu kuna maji,\nMaji ya uzima, bure,\nUnywe uwe hai, ”\nNilikwenda kwake mara\nNa maji nikanywa:\nNaishi kwake, na kiu\nKamwe sina tena."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Yesu aliniita, “njoo,\nDunia ni giza,\nUkinitazama nuru\nTakung’arizia.”\nNilikwenda kwake mara\nYeye jua langu,\nNi kila wakati mwanga\nSafarini mwangu."
+      }
+    ]
+  }
+  

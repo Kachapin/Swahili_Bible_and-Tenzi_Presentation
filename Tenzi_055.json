@@ -1,0 +1,46 @@
+  {
+    "number": 55,
+    "title": "Nipe moyo wenye sifa",
+    "stanzas": [
+      {
+        "type": "stanza",
+        "index": 1,
+        "text": "Nipe moyo wenye sifa\nSio wa utumwa;\nMoyo ulionyunyizwa\nDamu ya thamani."
+      },
+      {
+        "type": "stanza",
+        "index": 2,
+        "text": "Moyo msikizi, moyo\nWa kunyenyekea,\nMoyo utawaliwao\nNa Mwokozi pia."
+      },
+      {
+        "type": "stanza",
+        "index": 3,
+        "text": "Mwenye kutubu, mnyonge,\nSadiki, amini;\nKamwe, kamwe asitengwe\nAkaaye ndani."
+      },
+      {
+        "type": "stanza",
+        "index": 4,
+        "text": "Mpya, mwema na mawazo\nMwingi wa mapenzi\nNawe uwe kielelezo\nMoyo wa Mwokozi."
+      },
+      {
+        "type": "stanza",
+        "index": 5,
+        "text": "Ni uule moyo wako;\nMoyo wa huruma\nYesu, natamani kwako\nKukujua vyema."
+      },
+      {
+        "type": "stanza",
+        "index": 6,
+        "text": "Na ya midomo matunda\nYako, nipe nami;\nAmani isiyokoma\nIwe yangu mimi."
+      },
+      {
+        "type": "stanza",
+        "index": 7,
+        "text": "Nitie yako tabia,\nInishukie juu;\nJina lako nipe pia,\nNdilo la upendo."
+      },
+      {
+        "type": "stanza",
+        "index": 8,
+        "text": "Ni wa baba utukufu;\nMwana atukuke;\nNa roho Mtakatifu\nU utatu pweke."
+      }
+    ]
+  }
