@@ -603,7 +603,7 @@ data.
 ## Credits and Licensing
 
 Author: Kelvin Kachapin
-special mention to [shemmjunior](https://github.com) whom I used his Swahili Bible Edition for my bible.json file
+special mention to [shemmjunior]([https://github.com](https://github.com/shemmjunior)) whom I used his Swahili Bible Edition for my bible.json file
 
 
 Permited to use this controller in church and modify to suit your needs, 
